@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wplace-pixel.com"),
+  metadataBase: new URL("https://wplace.website"),
   title: {
     default: "Wplace Pixel Tool | #1 Pixel Art Converter for Wplace Canvas",
     template: "%s | Wplace Pixel Tool - Official Wplace Art Generator",

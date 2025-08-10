@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://wplace-pixel.com';
+  const base = 'https://wplace.website';
   return [
     { url: `${base}/`, priority: 1, changeFrequency: 'weekly' },
     { url: `${base}/blog`, priority: 0.8, changeFrequency: 'weekly' },
