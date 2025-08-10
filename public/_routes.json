@@ -2,10 +2,6 @@
   "version": 1,
   "include": ["/*"],
   "exclude": [
-    "/.next/cache/*",
-    "/.next/cache/webpack/*",
-    "/.next/cache/webpack/server-production/*.pack",
-    "/.next/cache/webpack/client-production/*.pack",
-    "/.next/cache/webpack/edge-server-production/*.pack"
+    "/.next/cache/*"
   ]
 } 
