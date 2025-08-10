@@ -27,7 +27,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-primary mb-4">Mastering Precision with Grid Tools</h2>
           <p className="text-lg leading-relaxed">
             Grid tools have become essential for artists creating pixel art for platforms like Wplace. 
-            Whether you're planning a complex design or ensuring pixel-perfect placement, 
+            Whether you&apos;re planning a complex design or ensuring pixel-perfect placement, 
             a good grid maker can dramatically improve your workflow and final results.
           </p>
         </div>
@@ -44,7 +44,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2 text-primary">Better planning</h3>
-              <p>Plan your artwork's layout before committing to pixel placement</p>
+              <p>Plan your artwork&apos;s layout before committing to pixel placement</p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2 text-primary">Consistent sizing</h3>
@@ -57,7 +57,7 @@ export default function BlogPost() {
           </div>
           <div className="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg border-l-4 border-yellow-400 mt-4">
             <p className="text-lg">
-              For Wplace projects specifically, using a grid that matches the platform's canvas dimensions ensures your art will display exactly as intended.
+              For Wplace projects specifically, using a grid that matches the platform&apos;s canvas dimensions ensures your art will display exactly as intended.
             </p>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function BlogPost() {
           <ol className="space-y-4 mt-4">
             <li className="flex gap-4 items-center p-3 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
-              <p className="text-lg"><strong>Match canvas dimensions</strong> - Ensure your grid matches Wplace's canvas size (typically a multiple of the base canvas size)</p>
+              <p className="text-lg"><strong>Match canvas dimensions</strong> - Ensure your grid matches Wplace&apos;s canvas size (typically a multiple of the base canvas size)</p>
             </li>
             <li className="flex gap-4 items-center p-3 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
@@ -131,7 +131,7 @@ export default function BlogPost() {
           </ol>
           <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-400 mt-4">
             <p className="text-lg">
-              Pro Tip: When working on a large Wplace project, create a smaller "planning grid" at a lower resolution first to establish your overall composition before scaling up to the final pixel grid.
+              Pro Tip: When working on a large Wplace project, create a smaller &quot;planning grid&quot; at a lower resolution first to establish your overall composition before scaling up to the final pixel grid.
             </p>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default function BlogPost() {
         <div className="space-y-6 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
           <h2 className="text-2xl font-bold mb-4">Step-by-Step: Creating a Custom Grid for Your Wplace Project</h2>
           <p className="text-lg">
-            Follow these steps to create a custom grid that's perfect for your Wplace pixel art:
+            Follow these steps to create a custom grid that&apos;s perfect for your Wplace pixel art:
           </p>
           <div className="space-y-4 mt-6">
             <div className="bg-white dark:bg-gray-700 p-4 rounded-lg">
@@ -157,7 +157,7 @@ export default function BlogPost() {
               <p className="text-lg">Set up your grid with these optimal settings:</p>
               <ul className="list-disc pl-6 mt-2 space-y-2">
                 <li>Grid size matching your canvas dimensions</li>
-                <li>Line thickness that's visible but not distracting (0.5-1px)</li>
+                <li>Line thickness that&apos;s visible but not distracting (0.5-1px)</li>
                 <li>Grid line color that contrasts with your artwork (light gray works well)</li>
                 <li>Optional coordinate system for easier reference</li>
               </ul>
@@ -202,7 +202,7 @@ export default function BlogPost() {
           </div>
           <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border-l-4 border-red-400 mt-4">
             <p className="text-lg">
-              Remember that while grids are powerful tools, they should serve your creative process, not restrict it. Don't be afraid to break grid patterns when your artistic vision calls for it.
+              Remember that while grids are powerful tools, they should serve your creative process, not restrict it. Don&apos;t be afraid to break grid patterns when your artistic vision calls for it.
             </p>
           </div>
         </div>
@@ -251,11 +251,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-primary mb-4">From Grid to Masterpiece</h2>
           <p className="text-lg">
             A well-designed grid is just the beginning of your pixel art journey. As you become more comfortable with grid-based 
-            design, you'll develop your own workflow and techniques that best suit your style and the requirements of Wplace projects.
+            design, you&apos;ll develop your own workflow and techniques that best suit your style and the requirements of Wplace projects.
           </p>
           <p className="text-lg">
             Remember that the most successful Wplace pixel artists combine technical precision with creative vision. 
-            Your grid is a tool to help you achieve pixel-perfect results, but it's your artistic choices that will make your 
+            Your grid is a tool to help you achieve pixel-perfect results, but it&apos;s your artistic choices that will make your 
             work stand out on the Wplace canvas.
           </p>
         </div>

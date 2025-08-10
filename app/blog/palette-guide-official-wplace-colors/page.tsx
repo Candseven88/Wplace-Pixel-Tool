@@ -26,7 +26,7 @@ export default function BlogPost() {
         <div className="bg-primary/5 p-6 rounded-lg border border-primary/10">
           <h2 className="text-2xl font-bold text-primary mb-4">The Importance of Color Palettes</h2>
           <p className="text-lg leading-relaxed">
-            When creating art for Wplace, using the official color palette isn't just a recommendation—it's a requirement. 
+            When creating art for Wplace, using the official color palette isn&apos;t just a recommendation—it&apos;s a requirement. 
             The Wplace canvas only allows pixels in specific colors, and any attempt to use colors outside this palette 
             will be rejected or automatically mapped to the closest available color.
           </p>
@@ -111,7 +111,7 @@ export default function BlogPost() {
         <div className="space-y-6">
           <h2 className="text-2xl font-bold border-l-4 border-primary pl-4 py-2">How Color Mapping Works</h2>
           <p className="text-lg">
-            When you use the Wplace Pixel Tool, your image undergoes a process called color quantization. Here's how it works:
+            When you use the Wplace Pixel Tool, your image undergoes a process called color quantization. Here&apos;s how it works:
           </p>
           
           <div className="space-y-6">
@@ -119,7 +119,7 @@ export default function BlogPost() {
               <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">1</div>
               <div>
                 <h3 className="font-bold text-xl mb-2">Color Distance Calculation</h3>
-                <p className="text-lg">For each pixel in your image, the tool calculates the "distance" 
+                <p className="text-lg">For each pixel in your image, the tool calculates the &quot;distance&quot; 
                 to each color in the Wplace palette using a mathematical formula that considers the red, green, and blue components.</p>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function BlogPost() {
         <div className="space-y-6 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
           <h2 className="text-2xl font-bold mb-4">Color Mapping Code Example</h2>
           <p className="text-lg mb-4">
-            Here's a simplified version of how our tool maps colors to the Wplace palette:
+            Here&apos;s a simplified version of how our tool maps colors to the Wplace palette:
           </p>
           <pre className="bg-gray-100 dark:bg-gray-900 p-4 rounded-lg overflow-auto text-sm">
             <code>
@@ -180,7 +180,7 @@ export default function BlogPost() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2 text-primary">Pre-adjust your images</h3>
-              <p>Before uploading to the Pixel Tool, consider adjusting your image's 
+              <p>Before uploading to the Pixel Tool, consider adjusting your image&apos;s 
               colors to be closer to the Wplace palette to minimize unexpected color shifts.</p>
             </div>
             

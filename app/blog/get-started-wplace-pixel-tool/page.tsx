@@ -27,7 +27,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-primary mb-4">What is Wplace Pixel Tool?</h2>
           <p className="text-lg leading-relaxed">
             Wplace Pixel Tool is a web-based utility that helps you convert any image into a 
-            pixel art format compatible with Wplace's color palette and grid system. Whether you're 
+            pixel art format compatible with Wplace&apos;s color palette and grid system. Whether you&apos;re 
             planning to contribute to a community canvas or just want to create pixel art with 
             the official Wplace color scheme, this tool streamlines the process.
           </p>
@@ -83,7 +83,7 @@ export default function BlogPost() {
               <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">3</div>
               <div>
                 <h3 className="font-bold text-xl mb-2">Preview and Adjust</h3>
-                <p className="text-lg">The tool will show you a live preview. Experiment with different settings until you're happy with the result.</p>
+                <p className="text-lg">The tool will show you a live preview. Experiment with different settings until you&apos;re happy with the result.</p>
               </div>
             </div>
             

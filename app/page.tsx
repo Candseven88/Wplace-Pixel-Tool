@@ -454,7 +454,7 @@ export default function Home() {
           
           <p>
             <strong>Wplace Pixel Tool</strong> is the premier solution for creating pixel art specifically optimized for Wplace. 
-            Whether you're a seasoned artist or a beginner, our tool makes it easy to convert any image into 
+            Whether you&apos;re a seasoned artist or a beginner, our tool makes it easy to convert any image into 
             Wplace-compatible pixel art with just a few clicks.
           </p>
           

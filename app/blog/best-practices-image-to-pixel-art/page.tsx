@@ -35,7 +35,7 @@ export default function BlogPost() {
         <div className="space-y-6">
           <h2 className="text-2xl font-bold border-l-4 border-primary pl-4 py-2">1. Choose the Right Source Image</h2>
           <p className="text-lg">
-            Not all images are equally suitable for pixel art conversion. Here's what to look for:
+            Not all images are equally suitable for pixel art conversion. Here&apos;s what to look for:
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
@@ -57,7 +57,7 @@ export default function BlogPost() {
           </div>
           <div className="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg border-l-4 border-yellow-400 mt-4">
             <p className="text-lg">
-              Images with complex textures, fine details, or subtle gradients often don't translate well to pixel art.
+              Images with complex textures, fine details, or subtle gradients often don&apos;t translate well to pixel art.
             </p>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function BlogPost() {
               <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">S</div>
               <div>
                 <h3 className="font-bold text-xl mb-2">For small pixel art (16×16 to 64×64)</h3>
-                <p className="text-lg">Start with a source image that's 2-4 times larger than your target size</p>
+                <p className="text-lg">Start with a source image that&apos;s 2-4 times larger than your target size</p>
               </div>
             </div>
             
@@ -158,8 +158,8 @@ export default function BlogPost() {
           </div>
           <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border-l-4 border-red-400 mt-4">
             <p className="text-lg">
-              If your source image is too large relative to your target size, you'll lose too much detail. 
-              If it's too small, the pixelization won't have enough information to work with.
+              If your source image is too large relative to your target size, you&apos;ll lose too much detail. 
+              If it&apos;s too small, the pixelization won&apos;t have enough information to work with.
             </p>
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function BlogPost() {
         <div className="space-y-6 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
           <h2 className="text-2xl font-bold mb-4">6. Iterative Approach</h2>
           <p className="text-lg">
-            Don't expect perfect results on your first try. Pixel art conversion is often an iterative process:
+            Don&apos;t expect perfect results on your first try. Pixel art conversion is often an iterative process:
           </p>
           <ol className="space-y-4 mt-4">
             <li className="flex gap-4 items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
@@ -213,7 +213,7 @@ export default function BlogPost() {
             </li>
             <li className="flex gap-4 items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
               <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">5</div>
-              <p className="text-lg">Repeat until you're satisfied with the results</p>
+              <p className="text-lg">Repeat until you&apos;re satisfied with the results</p>
             </li>
           </ol>
         </div>
@@ -258,11 +258,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-primary mb-4">Final Thoughts</h2>
           <p className="text-lg">
             Remember that pixel art has its own aesthetic and limitations. Not every image will convert perfectly, 
-            and that's okay! Sometimes the quirks and constraints of pixel art are what give it its charm. 
-            Don't be afraid to embrace the pixelated look rather than fighting against it.
+            and that&apos;s okay! Sometimes the quirks and constraints of pixel art are what give it its charm. 
+            Don&apos;t be afraid to embrace the pixelated look rather than fighting against it.
           </p>
           <p className="text-lg">
-            With practice and these best practices, you'll be able to create stunning pixel art from your photos 
+            With practice and these best practices, you&apos;ll be able to create stunning pixel art from your photos 
             that works beautifully with the Wplace canvas.
           </p>
         </div>

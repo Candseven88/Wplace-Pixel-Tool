@@ -28,7 +28,7 @@ export default function BlogPost() {
           <p className="text-lg leading-relaxed">
             Converting regular images into pixel art has become increasingly popular, especially with platforms like Wplace 
             showcasing community-created pixel masterpieces. This guide will walk you through the process of transforming 
-            any image into beautiful pixel art that's compatible with the Wplace canvas and color palette.
+            any image into beautiful pixel art that&apos;s compatible with the Wplace canvas and color palette.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export default function BlogPost() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2 text-primary">Wplace compatibility</h3>
-              <p>Create art that fits perfectly with Wplace's canvas format and color restrictions</p>
+              <p>Create art that fits perfectly with Wplace&apos;s canvas format and color restrictions</p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2 text-primary">Nostalgic aesthetic</h3>
@@ -60,7 +60,7 @@ export default function BlogPost() {
         <div className="space-y-6">
           <h2 className="text-2xl font-bold border-l-4 border-primary pl-4 py-2">Understanding Pixel Art Conversion</h2>
           <p className="text-lg">
-            Before diving into the process, it's important to understand what happens when an image is converted to pixel art:
+            Before diving into the process, it&apos;s important to understand what happens when an image is converted to pixel art:
           </p>
           <div className="space-y-4">
             <div className="flex gap-4 items-start p-4 border rounded-lg">
@@ -142,7 +142,7 @@ export default function BlogPost() {
           </div>
           <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-400 mt-4">
             <p className="text-lg">
-              For Wplace-specific projects, we highly recommend using the Wplace Pixel Tool as it's specifically designed to work with the platform's color palette and canvas requirements.
+              For Wplace-specific projects, we highly recommend using the Wplace Pixel Tool as it&apos;s specifically designed to work with the platform&apos;s color palette and canvas requirements.
             </p>
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function BlogPost() {
                 <li>Medium details: 64×64 or 128×128 pixels</li>
                 <li>Large artwork: 256×256 pixels or larger</li>
               </ul>
-              <p className="text-lg mt-3">Remember that lower resolutions create a more "pixelated" look, while higher resolutions preserve more detail.</p>
+              <p className="text-lg mt-3">Remember that lower resolutions create a more &quot;pixelated&quot; look, while higher resolutions preserve more detail.</p>
             </div>
             
             <div className="bg-white dark:bg-gray-700 p-4 rounded-lg">
@@ -182,10 +182,10 @@ export default function BlogPost() {
               <ol className="list-decimal pl-6 mt-2 space-y-2">
                 <li>Upload your prepared image</li>
                 <li>Select your desired output resolution</li>
-                <li>Choose the "Wplace Official" color palette</li>
+                <li>Choose the &quot;Wplace Official&quot; color palette</li>
                 <li>Adjust dithering settings (start with none, then experiment)</li>
                 <li>Select scaling algorithm (Nearest Neighbor for sharp edges, Bilinear for smoother transitions)</li>
-                <li>Click "Generate Pixel Art"</li>
+                <li>Click &quot;Generate Pixel Art&quot;</li>
               </ol>
             </div>
             
@@ -204,7 +204,7 @@ export default function BlogPost() {
               <h3 className="font-bold text-xl mb-2">Step 5: Manual Touch-ups (Optional)</h3>
               <p className="text-lg">For the best results, consider these manual adjustments:</p>
               <ul className="list-disc pl-6 mt-2 space-y-2">
-                <li>Clean up stray pixels that don't contribute to the image</li>
+                <li>Clean up stray pixels that don&apos;t contribute to the image</li>
                 <li>Enhance important outlines to improve readability</li>
                 <li>Adjust colors in specific areas to improve contrast</li>
                 <li>Simplify areas with too much noise or dithering</li>
@@ -214,7 +214,7 @@ export default function BlogPost() {
             
             <div className="bg-white dark:bg-gray-700 p-4 rounded-lg">
               <h3 className="font-bold text-xl mb-2">Step 6: Export for Wplace</h3>
-              <p className="text-lg">When you're satisfied with your pixel art:</p>
+              <p className="text-lg">When you&apos;re satisfied with your pixel art:</p>
               <ol className="list-decimal pl-6 mt-2 space-y-2">
                 <li>Export the image in PNG format (to preserve pixel crispness)</li>
                 <li>Verify that dimensions match your target size</li>
@@ -228,7 +228,7 @@ export default function BlogPost() {
         <div className="space-y-6">
           <h2 className="text-2xl font-bold border-l-4 border-primary pl-4 py-2">Advanced Techniques for Better Pixel Art</h2>
           <p className="text-lg">
-            Once you've mastered the basics, try these advanced techniques to elevate your pixel art:
+            Once you&apos;ve mastered the basics, try these advanced techniques to elevate your pixel art:
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-gray-50 dark:bg-gray-800 p-5 rounded-lg">
@@ -250,7 +250,7 @@ export default function BlogPost() {
           </div>
           <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border-l-4 border-red-400 mt-4">
             <p className="text-lg">
-              Remember that great pixel art often involves deliberate artistic choices rather than just automated conversion. Don't be afraid to make manual adjustments to achieve your vision.
+              Remember that great pixel art often involves deliberate artistic choices rather than just automated conversion. Don&apos;t be afraid to make manual adjustments to achieve your vision.
             </p>
           </div>
         </div>
@@ -271,8 +271,8 @@ export default function BlogPost() {
                   <td className="p-4">Try a higher resolution, increase contrast in the original image, or simplify the composition</td>
                 </tr>
                 <tr className="hover:bg-gray-50 dark:hover:bg-gray-800/50">
-                  <td className="p-4">Colors don't match Wplace palette</td>
-                  <td className="p-4">Use the Wplace Pixel Tool's color mapping feature or manually adjust colors to match the official palette</td>
+                  <td className="p-4">Colors don&apos;t match Wplace palette</td>
+                  <td className="p-4">Use the Wplace Pixel Tool&apos;s color mapping feature or manually adjust colors to match the official palette</td>
                 </tr>
                 <tr className="hover:bg-gray-50 dark:hover:bg-gray-800/50">
                   <td className="p-4">Too much dithering noise</td>
@@ -283,7 +283,7 @@ export default function BlogPost() {
                   <td className="p-4">Crop the image to focus more on the important elements or manually enhance key details</td>
                 </tr>
                 <tr className="hover:bg-gray-50 dark:hover:bg-gray-800/50">
-                  <td className="p-4">Image looks too "flat"</td>
+                  <td className="p-4">Image looks too &quot;flat&quot;</td>
                   <td className="p-4">Add contrast, enhance outlines, or use strategic dithering to create depth</td>
                 </tr>
               </tbody>
@@ -295,15 +295,15 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-primary mb-4">From Photos to Pixels: The Creative Journey</h2>
           <p className="text-lg">
             Converting images to pixel art is both a technical process and a creative journey. Each image presents unique 
-            challenges and opportunities, and the best results often come from experimentation and iteration. Don't be 
-            discouraged if your first attempts aren't perfect – pixel art is a skill that improves with practice.
+            challenges and opportunities, and the best results often come from experimentation and iteration. Don&apos;t be 
+            discouraged if your first attempts aren&apos;t perfect – pixel art is a skill that improves with practice.
           </p>
           <p className="text-lg">
             Remember that the Wplace community values originality and creativity. While converting existing images is a 
             great way to start, consider how you might add your own artistic touch to make your pixel creations truly unique.
           </p>
           <p className="text-lg">
-            We can't wait to see what you create for the Wplace canvas!
+            We can&apos;t wait to see what you create for the Wplace canvas!
           </p>
         </div>
 
