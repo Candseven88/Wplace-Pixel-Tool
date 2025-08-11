@@ -70,6 +70,11 @@ body {
   overflow: hidden;
 }
 
+/* Allow specific glass containers (like header) to show overflowed children */
+.glass-allow-overflow {
+  overflow: visible !important;
+}
+
 .glass::before {
   content: '';
   position: absolute;

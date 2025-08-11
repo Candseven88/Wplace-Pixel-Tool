@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Wplace Pixel-Werkzeug",
+    "subtitle": "Ultimativer Pixel-Art-Creator für Wplace",
+    "description": "Wandle beliebige Bilder mit unserem fortschrittlichen Konverter in Wplace-taugliche Pixelkunst um. Offizielle Farbpalette, mehrere Skalierungsalgorithmen und Dithering-Optionen.",
+    "startButton": "Jetzt starten",
+    "learnMore": "Mehr erfahren"
+  },
+  "settings": {
+    "pixelSettings": "Pixel-Einstellungen",
+    "blockSize": "Pixelblock-Größe",
+    "scalingMethod": "Skalierungsmethode",
+    "nearest": "Nächster Nachbar",
+    "bilinear": "Bilinear",
+    "lanczos": "Lanczos",
+    "dithering": "Floyd–Steinberg Dithering",
+    "small": "Klein (2px)",
+    "large": "Groß (32px)"
+  },
+  "palette": { "title": "Palette", "upload": "Hochladen" },
+  "actions": { "title": "Aktionen", "download": "Download", "share": "Teilen" },
+  "upload": { "title": "Bild hochladen, um zu beginnen", "selectImage": "Bild auswählen", "dragDrop": "oder hierher ziehen" },
+  "tips": {
+    "title": "Schnelle Tipps",
+    "tip1": "Verschiedene Blockgrößen für mehr Detail testen",
+    "tip2": "Dithering für weichere Übergänge aktivieren",
+    "tip3": "Nächster Nachbar liefert scharfe Pixelkunst",
+    "tip4": "Tipp: Blockgröße und Dithering kombinieren für Effekte"
+  },
+  "features": {
+    "title": "Wplace Pixel-Funktionen",
+    "colorMatching": { "title": "Perfekte Farbabstimmung", "description": "Der Algorithmus ordnet Farben der offiziellen Wplace-Palette zu – maximale Kompatibilität." },
+    "algorithms": { "title": "Fortschrittliche Algorithmen", "description": "Wähle Nächster Nachbar, Bilinear oder Lanczos für verschiedene Stile." },
+    "privacy": { "title": "Datenschutz zuerst", "description": "Alles läuft im Browser. Keine Uploads, keine Datenerfassung." }
+  },
+  "seo": {
+    "whyChoose": "Warum Wplace Pixel Tool?",
+    "intro": "Die führende Lösung für optimierte Pixelkunst für Wplace. Bilder mit wenigen Klicks konvertieren – für Einsteiger und Profis.",
+    "forArtists": { "title": "Ideal für Wplace-Künstler", "description": "Exakte Wplace-Palette, keine Farbabweichungen. Detailgrad per Blockgröße steuern." },
+    "features": {
+      "title": "Profi-Funktionen",
+      "description": "Features wie in Premium-Software:",
+      "list": [
+        "Mehrere Skalierungen (Nächster Nachbar, Bilinear, Lanczos)",
+        "Floyd–Steinberg-Dithering für weiche Übergänge",
+        "Eigene Paletten unterstützen",
+        "Teilen und Download mit einem Klick"
+      ]
+    },
+    "free": { "title": "Kostenlos im Browser", "description": "Komplett kostenlos, 100% im Browser. Keine Installation, kein Account nötig." },
+    "cta": "Bereit für großartige Pixelkunst? Bild hochladen und loslegen!"
+  },
+  "demo": { "original": "Original", "pixelArt": "Pixelkunst" },
+  "navigation": { "language": "Sprache", "english": "English", "chinese": "中文", "japanese": "日本語" }
+} 

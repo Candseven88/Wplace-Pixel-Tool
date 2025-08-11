@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Herramienta de Píxeles Wplace",
+    "subtitle": "Creador definitivo de arte píxel para Wplace",
+    "description": "Transforma cualquier imagen en arte píxel listo para Wplace con nuestro avanzado conversor. Incluye coincidencia con la paleta oficial, múltiples algoritmos de escalado y opciones de tramado.",
+    "startButton": "Empezar a crear",
+    "learnMore": "Saber más"
+  },
+  "settings": {
+    "pixelSettings": "Ajustes de píxel",
+    "blockSize": "Tamaño del bloque de píxel",
+    "scalingMethod": "Método de escalado",
+    "nearest": "Vecino más cercano",
+    "bilinear": "Bilineal",
+    "lanczos": "Lanczos",
+    "dithering": "Tramado Floyd–Steinberg",
+    "small": "Pequeño (2px)",
+    "large": "Grande (32px)"
+  },
+  "palette": { "title": "Paleta", "upload": "Subir" },
+  "actions": { "title": "Acciones", "download": "Descargar", "share": "Compartir" },
+  "upload": { "title": "Sube una imagen para empezar", "selectImage": "Seleccionar imagen", "dragDrop": "o arrastra y suelta aquí" },
+  "tips": {
+    "title": "Consejos rápidos",
+    "tip1": "Prueba diferentes tamaños de bloque para más detalle",
+    "tip2": "Activa el tramado para transiciones más suaves",
+    "tip3": "El escalado Vecino más cercano es ideal para arte píxel nítido",
+    "tip4": "Consejo: combina tamaños de bloque y tramado para distintos efectos"
+  },
+  "features": {
+    "title": "Funciones de Wplace Pixel",
+    "colorMatching": { "title": "Coincidencia perfecta de color", "description": "Nuestro algoritmo mapea tus imágenes a la paleta oficial de Wplace para una compatibilidad perfecta." },
+    "algorithms": { "title": "Algoritmos avanzados", "description": "Elige entre Vecino más cercano, Bilineal o Lanczos para diferentes estilos de arte píxel." },
+    "privacy": { "title": "Privacidad primero", "description": "Todo el procesamiento ocurre en tu navegador. Sin subidas ni recopilación de datos." }
+  },
+  "seo": {
+    "whyChoose": "¿Por qué elegir Wplace Pixel Tool?",
+    "intro": "Wplace Pixel Tool es la solución líder para crear arte píxel optimizado para Wplace. Tanto si eres principiante como profesional, convierte imágenes en arte compatible con Wplace con unos clics.",
+    "forArtists": { "title": "Perfecto para artistas de Wplace", "description": "La conversión mantiene exactamente la paleta oficial de Wplace, evitando desajustes de color. Ajusta el tamaño del bloque para controlar el detalle." },
+    "features": {
+      "title": "Funciones de nivel profesional",
+      "description": "Incluye características normalmente exclusivas de software premium:",
+      "list": [
+        "Múltiples algoritmos de escalado (Vecino más cercano, Bilineal, Lanczos)",
+        "Tramado Floyd–Steinberg para transiciones suaves",
+        "Soporte de paletas personalizadas",
+        "Compartir y descargar con un clic"
+      ]
+    },
+    "free": { "title": "Gratis y en el navegador", "description": "Totalmente gratuito y ejecutado 100% en tu navegador. Sin instalaciones ni registros." },
+    "cta": "¿Listo para crear arte píxel increíble para Wplace? ¡Sube tu imagen y comienza ahora!"
+  },
+  "demo": { "original": "Original", "pixelArt": "Arte píxel" },
+  "navigation": { "language": "Idioma", "english": "English", "chinese": "中文", "japanese": "日本語" }
+} 

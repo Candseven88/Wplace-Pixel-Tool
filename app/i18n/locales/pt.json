@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Ferramenta de Pixel Wplace",
+    "subtitle": "Criador definitivo de arte em pixel para Wplace",
+    "description": "Transforme qualquer imagem em arte pixel pronta para o Wplace com nosso conversor avançado. Paleta oficial, múltiplos algoritmos de escala e opções de dithering.",
+    "startButton": "Começar agora",
+    "learnMore": "Saiba mais"
+  },
+  "settings": {
+    "pixelSettings": "Configurações de pixel",
+    "blockSize": "Tamanho do bloco de pixel",
+    "scalingMethod": "Método de escala",
+    "nearest": "Vizinho mais próximo",
+    "bilinear": "Bilinear",
+    "lanczos": "Lanczos",
+    "dithering": "Dithering Floyd–Steinberg",
+    "small": "Pequeno (2px)",
+    "large": "Grande (32px)"
+  },
+  "palette": { "title": "Paleta", "upload": "Enviar" },
+  "actions": { "title": "Ações", "download": "Baixar", "share": "Compartilhar" },
+  "upload": { "title": "Envie uma imagem para começar", "selectImage": "Selecionar imagem", "dragDrop": "ou arraste e solte aqui" },
+  "tips": {
+    "title": "Dicas rápidas",
+    "tip1": "Teste tamanhos de bloco diferentes para mais detalhes",
+    "tip2": "Ative o dithering para transições mais suaves",
+    "tip3": "Vizinho mais próximo é melhor para arte pixel nítida",
+    "tip4": "Dica: combine tamanho de bloco e dithering para efeitos variados"
+  },
+  "features": {
+    "title": "Recursos do Wplace Pixel",
+    "colorMatching": { "title": "Correspondência perfeita de cores", "description": "Mapeamos suas imagens para a paleta oficial do Wplace para compatibilidade total." },
+    "algorithms": { "title": "Algoritmos avançados", "description": "Escolha entre Vizinho mais próximo, Bilinear ou Lanczos para diferentes estilos." },
+    "privacy": { "title": "Privacidade em primeiro lugar", "description": "Tudo acontece no seu navegador. Sem uploads, sem coleta de dados." }
+  },
+  "seo": {
+    "whyChoose": "Por que escolher o Wplace Pixel Tool?",
+    "intro": "A solução líder para criar arte em pixel otimizada para o Wplace. Converta imagens em poucos cliques.",
+    "forArtists": { "title": "Perfeito para artistas do Wplace", "description": "Mantém exatamente a paleta oficial, evitando diferenças de cor. Controle o detalhe ajustando o tamanho do bloco." },
+    "features": {
+      "title": "Recursos profissionais",
+      "description": "Recursos normalmente vistos em softwares premium:",
+      "list": [
+        "Vários algoritmos de escala (Vizinho mais próximo, Bilinear, Lanczos)",
+        "Dithering Floyd–Steinberg para transições suaves",
+        "Suporte a paletas personalizadas",
+        "Compartilhar e baixar com um clique"
+      ]
+    },
+    "free": { "title": "Gratuito e no navegador", "description": "Totalmente gratuito, executado 100% no navegador. Sem instalação ou cadastro." },
+    "cta": "Pronto para criar arte em pixel incrível? Envie sua imagem e comece já!"
+  },
+  "demo": { "original": "Original", "pixelArt": "Arte em pixel" },
+  "navigation": { "language": "Idioma", "english": "English", "chinese": "中文", "japanese": "日本語" }
+} 

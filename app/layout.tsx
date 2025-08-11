@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -128,7 +129,7 @@ export default function RootLayout({
           <div className="pixel-grid absolute inset-0 opacity-[0.03]"></div>
         </div>
         
-        <header className="glass border-b border-border sticky top-0 z-40 backdrop-blur-lg">
+        <header className="glass glass-allow-overflow border-b border-border sticky top-0 z-50 backdrop-blur-lg">
           <div className="mx-auto max-w-5xl px-6 h-16 flex items-center gap-6">
             <Link href="/" className="font-semibold hover:opacity-90 transition flex items-center gap-2 group">
               <Image 
@@ -146,8 +147,7 @@ export default function RootLayout({
               <Link href="/about" className="nav-link">About</Link>
               <Link href="/privacy" className="nav-link">Privacy</Link>
               <Link href="/terms" className="nav-link">Terms</Link>
-              
-
+              <LanguageSwitcher />
             </nav>
           </div>
         </header>

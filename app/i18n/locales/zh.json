@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "title": "Wplace 像素工具",
+    "subtitle": "Wplace 终极像素艺术创作工具",
+    "description": "使用我们的高级转换器将任何图片转换为完美的 Wplace 像素艺术。具有官方调色板匹配、多种缩放算法和抖动选项。",
+    "startButton": "立即开始创作",
+    "learnMore": "了解更多"
+  },
+  "settings": {
+    "pixelSettings": "像素设置",
+    "blockSize": "像素块大小",
+    "scalingMethod": "缩放方法",
+    "nearest": "最近邻",
+    "bilinear": "双线性",
+    "lanczos": "Lanczos",
+    "dithering": "Floyd–Steinberg 抖动",
+    "small": "小 (2px)",
+    "large": "大 (32px)"
+  },
+  "palette": {
+    "title": "调色板",
+    "upload": "上传"
+  },
+  "actions": {
+    "title": "操作",
+    "download": "下载",
+    "share": "分享"
+  },
+  "upload": {
+    "title": "上传图片开始创作",
+    "selectImage": "选择图片",
+    "dragDrop": "或拖拽图片到此处"
+  },
+  "tips": {
+    "title": "快速提示",
+    "tip1": "尝试不同的块大小以获得细节",
+    "tip2": "启用抖动以获得更平滑的过渡",
+    "tip3": "最近邻缩放最适合清晰的像素艺术",
+    "tip4": "提示：尝试不同的块大小和抖动以获得各种效果"
+  },
+  "features": {
+    "title": "Wplace 像素功能",
+    "colorMatching": {
+      "title": "完美色彩匹配",
+      "description": "我们的算法自动将您的图片映射到官方 Wplace 调色板，实现完美兼容。"
+    },
+    "algorithms": {
+      "title": "高级算法",
+      "description": "在最近邻、双线性或 Lanczos 缩放之间选择，以获得不同的像素艺术风格。"
+    },
+    "privacy": {
+      "title": "隐私优先",
+      "description": "所有处理都在您的浏览器中进行。无上传、无数据收集，100% 私密。"
+    }
+  },
+  "seo": {
+    "whyChoose": "为什么选择 Wplace 像素工具？",
+    "intro": "Wplace 像素工具是专门为 Wplace 优化的像素艺术创作的首选解决方案。无论您是经验丰富的艺术家还是初学者，我们的工具都能让您轻松地将任何图片转换为 Wplace 兼容的像素艺术。",
+    "forArtists": {
+      "title": "Wplace 艺术家的完美选择",
+      "description": "我们的专业转换器确保您的创作与 Wplace 中使用的确切调色板匹配，消除在传输设计时颜色不匹配的挫败感。可自定义的像素块大小让您创建从详细微型到大型像素艺术杰作的任何作品。"
+    },
+    "features": {
+      "title": "专业级功能",
+      "description": "Wplace 像素工具提供通常仅在高级软件中找到的高级功能：",
+      "list": [
+        "多种缩放算法（最近邻、双线性、Lanczos）",
+        "Floyd-Steinberg 抖动，实现更平滑的颜色过渡",
+        "自定义调色板支持，用于创意实验",
+        "一键分享和下载"
+      ]
+    },
+    "free": {
+      "title": "免费且基于浏览器",
+      "description": "与其他像素艺术工具不同，Wplace 像素工具完全免费使用，完全在您的浏览器中运行。无需下载、安装或注册。立即在任何设备上开始创建美丽的 Wplace 像素艺术。"
+    },
+    "cta": "准备为 Wplace 创建令人惊叹的像素艺术了吗？上传您的图片并开始像素化吧！"
+  },
+  "demo": {
+    "original": "原图",
+    "pixelArt": "像素艺术"
+  },
+  "navigation": {
+    "language": "语言",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語"
+  }
+} 

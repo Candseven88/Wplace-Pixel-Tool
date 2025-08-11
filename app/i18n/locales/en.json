@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "title": "Wplace Pixel Tool",
+    "subtitle": "Ultimate Pixel Art Creator for Wplace",
+    "description": "Transform any image into perfect Wplace-ready pixel art with our advanced converter. Featuring official color palette matching, multiple scaling algorithms, and dithering options.",
+    "startButton": "Start Creating Now",
+    "learnMore": "Learn More"
+  },
+  "settings": {
+    "pixelSettings": "Pixel Settings",
+    "blockSize": "Pixel block size",
+    "scalingMethod": "Scaling method",
+    "nearest": "Nearest Neighbor",
+    "bilinear": "Bilinear",
+    "lanczos": "Lanczos",
+    "dithering": "Floyd–Steinberg dithering",
+    "small": "Small (2px)",
+    "large": "Large (32px)"
+  },
+  "palette": {
+    "title": "Palette",
+    "upload": "Upload"
+  },
+  "actions": {
+    "title": "Actions",
+    "download": "Download",
+    "share": "Share"
+  },
+  "upload": {
+    "title": "Upload an image to start creating",
+    "selectImage": "Select Image",
+    "dragDrop": "or drag & drop image here"
+  },
+  "tips": {
+    "title": "Quick Tips",
+    "tip1": "Try different block sizes for detail",
+    "tip2": "Enable dithering for smoother transitions",
+    "tip3": "Nearest Neighbor scaling works best for crisp pixel art",
+    "tip4": "Tip: Try different block sizes and dithering for various effects"
+  },
+  "features": {
+    "title": "Wplace Pixel Features",
+    "colorMatching": {
+      "title": "Perfect Color Matching",
+      "description": "Our algorithm automatically maps your images to the official Wplace color palette for perfect compatibility."
+    },
+    "algorithms": {
+      "title": "Advanced Algorithms",
+      "description": "Choose between Nearest Neighbor, Bilinear, or Lanczos scaling for different pixel art styles."
+    },
+    "privacy": {
+      "title": "Privacy First",
+      "description": "All processing happens in your browser. No uploads, no data collection, 100% private."
+    }
+  },
+  "seo": {
+    "whyChoose": "Why Choose Wplace Pixel Tool?",
+    "intro": "Wplace Pixel Tool is the premier solution for creating pixel art specifically optimized for Wplace. Whether you're a seasoned artist or a beginner, our tool makes it easy to convert any image into Wplace-compatible pixel art with just a few clicks.",
+    "forArtists": {
+      "title": "Perfect for Wplace Artists",
+      "description": "Our specialized converter ensures your creations match the exact color palette used in Wplace, eliminating the frustration of color mismatches when transferring your designs. The customizable pixel block size lets you create anything from detailed miniatures to large-scale pixel art masterpieces."
+    },
+    "features": {
+      "title": "Professional-Grade Features",
+      "description": "Wplace Pixel Tool offers advanced features typically found only in premium software:",
+      "list": [
+        "Multiple scaling algorithms (Nearest Neighbor, Bilinear, Lanczos)",
+        "Floyd-Steinberg dithering for smoother color transitions",
+        "Custom palette support for creative experimentation",
+        "One-click sharing and downloading"
+      ]
+    },
+    "free": {
+      "title": "Free and Browser-Based",
+      "description": "Unlike other pixel art tools, Wplace Pixel Tool is completely free to use and runs entirely in your browser. No downloads, no installations, and no sign-ups required. Start creating beautiful Wplace pixel art instantly on any device."
+    },
+    "cta": "Ready to create amazing pixel art for Wplace? Upload your image and start pixelizing now!"
+  },
+  "demo": {
+    "original": "Original",
+    "pixelArt": "Pixel Art"
+  },
+  "navigation": {
+    "language": "Language",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語"
+  }
+} 

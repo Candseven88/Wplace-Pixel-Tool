@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Wplace 픽셀 도구",
+    "subtitle": "Wplace를 위한 최강의 픽셀 아트 제작기",
+    "description": "고급 변환기로 이미지를 Wplace용 픽셀 아트로 변환하세요. 공식 팔레트 매칭, 다양한 스케일링 알고리즘, 디더링 옵션 제공.",
+    "startButton": "지금 시작",
+    "learnMore": "자세히 보기"
+  },
+  "settings": {
+    "pixelSettings": "픽셀 설정",
+    "blockSize": "픽셀 블록 크기",
+    "scalingMethod": "스케일링 방법",
+    "nearest": "최근접 이웃",
+    "bilinear": "바이리니어",
+    "lanczos": "란초스",
+    "dithering": "플로이드–스타인버그 디더링",
+    "small": "작게 (2px)",
+    "large": "크게 (32px)"
+  },
+  "palette": { "title": "팔레트", "upload": "업로드" },
+  "actions": { "title": "작업", "download": "다운로드", "share": "공유" },
+  "upload": { "title": "시작하려면 이미지를 업로드하세요", "selectImage": "이미지 선택", "dragDrop": "또는 여기로 드래그 앤 드롭" },
+  "tips": {
+    "title": "빠른 팁",
+    "tip1": "자세한 표현을 위해 다양한 블록 크기를 시도하세요",
+    "tip2": "부드러운 전환을 위해 디더링을 켜세요",
+    "tip3": "최근접 이웃 스케일링이 선명한 픽셀 아트에 적합합니다",
+    "tip4": "팁: 블록 크기와 디더링을 조합해 다양한 효과를 얻으세요"
+  },
+  "features": {
+    "title": "Wplace 픽셀 기능",
+    "colorMatching": { "title": "완벽한 색상 매칭", "description": "이미지를 Wplace 공식 팔레트에 자동 매핑하여 완벽한 호환성을 보장합니다." },
+    "algorithms": { "title": "고급 알고리즘", "description": "최근접 이웃, 바이리니어, 란초스 중에서 선택하세요." },
+    "privacy": { "title": "개인정보 우선", "description": "모든 처리는 브라우저에서 이루어집니다. 업로드와 데이터 수집이 없습니다." }
+  },
+  "seo": {
+    "whyChoose": "왜 Wplace Pixel Tool 인가요?",
+    "intro": "Wplace에 최적화된 픽셀 아트를 만들기 위한 최고의 솔루션입니다. 몇 번의 클릭으로 이미지를 변환하세요.",
+    "forArtists": { "title": "Wplace 아티스트에게 최적", "description": "공식 팔레트와 정확히 일치하여 색상 불일치를 방지합니다. 블록 크기로 디테일을 조절하세요." },
+    "features": {
+      "title": "전문가급 기능",
+      "description": "프리미엄 소프트웨어 수준의 기능 제공:",
+      "list": [
+        "여러 스케일링 알고리즘(최근접, 바이리니어, 란초스)",
+        "부드러운 전환을 위한 플로이드–스타인버그 디더링",
+        "사용자 정의 팔레트 지원",
+        "원클릭 공유 및 다운로드"
+      ]
+    },
+    "free": { "title": "무료, 브라우저 기반", "description": "완전히 무료이며 100% 브라우저에서 실행됩니다. 설치와 회원가입이 필요 없습니다." },
+    "cta": "멋진 픽셀 아트를 만들 준비가 되셨나요? 이미지를 업로드하고 시작하세요!"
+  },
+  "demo": { "original": "원본", "pixelArt": "픽셀 아트" },
+  "navigation": { "language": "언어", "english": "English", "chinese": "中文", "japanese": "日本語" }
+} 

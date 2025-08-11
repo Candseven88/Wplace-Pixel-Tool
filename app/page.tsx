@@ -2,12 +2,20 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { hexToRgb, pixelizeToCanvas, type PixelizeOptions } from './lib/pixel';
+import { getTranslations, type Locale } from './i18n';
 
 type PaletteFile = { name: string; colors: string[] };
 
 type ScaleMethod = PixelizeOptions['scaleMethod'];
 
-export default function Home() {
+interface HomeProps {
+  locale?: Locale;
+}
+
+export default function Home({ locale }: HomeProps) {
+  // If no locale is provided, use default
+  const currentLocale = locale || 'en';
+  const t = getTranslations(currentLocale);
   const [imageObjectUrl, setImageObjectUrl] = useState<string | null>(null);
   const [pixelBlockSize, setPixelBlockSize] = useState<number>(8);
   const [scaleMethod, setScaleMethod] = useState<ScaleMethod>('nearest');
@@ -263,20 +271,19 @@ export default function Home() {
             {/* Left side - Text content */}
             <div className="text-center lg:text-left space-y-4 sm:space-y-6">
               <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-                <span className="text-gradient">Wplace Pixel Tool</span>
-                <span className="block mt-2 text-2xl sm:text-3xl">Ultimate Pixel Art Creator for Wplace</span>
+                <span className="text-gradient">{t.hero.title}</span>
+                <span className="block mt-2 text-2xl sm:text-3xl">{t.hero.subtitle}</span>
               </h1>
               
               <p className="text-base sm:text-lg text-foreground/80 leading-relaxed">
-                Transform any image into perfect Wplace-ready pixel art with our advanced converter. 
-                Featuring official color palette matching, multiple scaling algorithms, and dithering options.
+                {t.hero.description}
               </p>
               
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
                 <button onClick={() => document.getElementById('file-input')?.click()} className="btn btn-primary animated-border">
-                  <span className="z-10 relative px-2">Start Creating Now</span>
+                  <span className="z-10 relative px-2">{t.hero.startButton}</span>
                 </button>
-                <a href="#features" className="btn btn-outline glow">Learn More</a>
+                <a href="#features" className="btn btn-outline glow">{t.hero.learnMore}</a>
               </div>
             </div>
 
@@ -320,10 +327,10 @@ export default function Home() {
                   
                   {/* Labels */}
                   <div className="absolute top-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs font-medium">
-                    Original
+                    {t.demo.original}
                   </div>
                   <div className="absolute top-2 right-2 bg-black/50 text-white px-2 py-1 rounded text-xs font-medium">
-                    Pixel Art
+                    {t.demo.pixelArt}
                   </div>
                   
 
@@ -341,9 +348,9 @@ export default function Home() {
           <div className="lg:col-span-4 space-y-4 sm:space-y-6 lg:flex lg:flex-col lg:justify-between">
             {/* Pixel Settings */}
             <div className="glass rounded-xl border border-border p-4 sm:p-5 space-y-3 sm:space-y-4 hover-card">
-              <div className="text-gradient text-lg font-medium">Pixel Settings</div>
+              <div className="text-gradient text-lg font-medium">{t.settings.pixelSettings}</div>
               <div>
-                <label className="block text-sm font-medium mb-2">Pixel block size: <span className="text-primary">{pixelBlockSize}px</span></label>
+                <label className="block text-sm font-medium mb-2">{t.settings.blockSize}: <span className="text-primary">{pixelBlockSize}px</span></label>
                 <input
                   type="range"
                   min={2}
@@ -354,26 +361,26 @@ export default function Home() {
                   className="w-full accent-[var(--primary)]"
                 />
                 <div className="flex justify-between text-xs text-foreground/50 mt-1">
-                  <span>Small (2px)</span>
-                  <span>Large (32px)</span>
+                  <span>{t.settings.small}</span>
+                  <span>{t.settings.large}</span>
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-medium mb-2">Scaling method</label>
+                <label className="block text-sm font-medium mb-2">{t.settings.scalingMethod}</label>
                 <select
                   value={scaleMethod}
                   onChange={(e) => setScaleMethod(e.target.value as ScaleMethod)}
                   className="select w-full"
                 >
-                  <option value="nearest">Nearest Neighbor</option>
-                  <option value="bilinear">Bilinear</option>
-                  <option value="lanczos">Lanczos</option>
+                  <option value="nearest">{t.settings.nearest}</option>
+                  <option value="bilinear">{t.settings.bilinear}</option>
+                  <option value="lanczos">{t.settings.lanczos}</option>
                 </select>
               </div>
 
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">Floyd–Steinberg dithering</span>
+                <span className="text-sm font-medium">{t.settings.dithering}</span>
                 <button
                   type="button"
                   role="switch"
@@ -389,10 +396,10 @@ export default function Home() {
             {/* Palette */}
             <div className="glass rounded-xl border border-border p-4 sm:p-5 space-y-3 sm:space-y-4 hover-card">
               <div className="flex items-center gap-2">
-                <div className="text-gradient text-lg font-medium">Palette</div>
+                <div className="text-gradient text-lg font-medium">{t.palette.title}</div>
                 <span className="text-sm text-foreground/70 truncate" title={paletteName}>{paletteName}</span>
                 <input id="palette-file" type="file" accept="application/json" onChange={onPaletteFile} className="hidden" />
-                <label htmlFor="palette-file" className="ml-auto btn btn-outline cursor-pointer text-sm">Upload</label>
+                <label htmlFor="palette-file" className="ml-auto btn btn-outline cursor-pointer text-sm">{t.palette.upload}</label>
               </div>
               <div className="grid grid-cols-8 gap-1 p-2 rounded-lg bg-background/30">
                 {palette.slice(0, 32).map(([r, g, b], i) => (
@@ -403,7 +410,7 @@ export default function Home() {
 
             {/* Action Buttons - Only visible on mobile */}
             <div className="glass rounded-xl border border-border p-4 sm:p-5 space-y-3 sm:space-y-4 hover-card lg:hidden">
-              <div className="text-gradient text-lg font-medium">Actions</div>
+              <div className="text-gradient text-lg font-medium">{t.actions.title}</div>
               <div className="flex gap-3">
                 <button onClick={onDownload} className="btn btn-primary flex-1 py-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
@@ -411,7 +418,7 @@ export default function Home() {
                     <polyline points="7 10 12 15 17 10"></polyline>
                     <line x1="12" y1="15" x2="12" y2="3"></line>
                   </svg>
-                  Download
+                  {t.actions.download}
                 </button>
                 <button onClick={onShare} className="btn btn-outline flex-1 py-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
@@ -421,7 +428,7 @@ export default function Home() {
                     <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
                     <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
                   </svg>
-                  Share
+                  {t.actions.share}
                 </button>
               </div>
             </div>
@@ -435,12 +442,12 @@ export default function Home() {
                     <line x1="12" y1="16" x2="12" y2="12"></line>
                     <line x1="12" y1="8" x2="12.01" y2="8"></line>
                   </svg>
-                  <h3 className="text-sm font-medium">Quick Tips</h3>
+                  <h3 className="text-sm font-medium">{t.tips.title}</h3>
                 </div>
                 <ul className="text-xs text-foreground/80 space-y-1 pl-5 list-disc">
-                  <li>Try different block sizes for detail</li>
-                  <li>Enable dithering for smoother transitions</li>
-                  <li>Nearest Neighbor scaling works best for crisp pixel art</li>
+                  <li>{t.tips.tip1}</li>
+                  <li>{t.tips.tip2}</li>
+                  <li>{t.tips.tip3}</li>
                 </ul>
               </div>
             )}
@@ -489,11 +496,11 @@ export default function Home() {
                         <polyline points="21 15 16 10 5 21"></polyline>
                       </svg>
                     </div>
-                    <div className="text-lg text-foreground/70 mb-4">Upload an image to start creating</div>
+                    <div className="text-lg text-foreground/70 mb-4">{t.upload.title}</div>
                     <label htmlFor="file-input" className="btn btn-primary animate-pulse cursor-pointer">
-                      Select Image
+                      {t.upload.selectImage}
                     </label>
-                    <p className="mt-3 text-sm text-foreground/60">or drag & drop image here</p>
+                    <p className="mt-3 text-sm text-foreground/60">{t.upload.dragDrop}</p>
                   </div>
                 )}
               </div>
@@ -508,7 +515,7 @@ export default function Home() {
                         <polyline points="7 10 12 15 17 10"></polyline>
                         <line x1="12" y1="15" x2="12" y2="3"></line>
                       </svg>
-                      Download
+                      {t.actions.download}
                     </button>
                     <button onClick={onShare} className="btn btn-outline py-2 px-6">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
@@ -518,7 +525,7 @@ export default function Home() {
                         <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
                         <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
                       </svg>
-                      Share
+                      {t.actions.share}
                     </button>
                   </div>
                   
@@ -528,7 +535,7 @@ export default function Home() {
                       <line x1="12" y1="16" x2="12" y2="12"></line>
                       <line x1="12" y1="8" x2="12.01" y2="8"></line>
                     </svg>
-                    <span>Tip: Try different block sizes and dithering for various effects</span>
+                    <span>{t.tips.tip4}</span>
                   </div>
                 </div>
               )}
@@ -539,28 +546,28 @@ export default function Home() {
         {/* Features Section */}
         <section id="features" className="py-8 sm:py-10 scroll-mt-20">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8">
-            <span className="text-gradient">Wplace Pixel Features</span>
+            <span className="text-gradient">{t.features.title}</span>
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
             <div className="glass p-4 sm:p-5 rounded-xl border border-border hover-card">
-              <div className="text-primary text-xl mb-2 text-center">Perfect Color Matching</div>
+              <div className="text-primary text-xl mb-2 text-center">{t.features.colorMatching.title}</div>
               <p className="text-foreground/80">
-                Our algorithm automatically maps your images to the official Wplace color palette for perfect compatibility.
+                {t.features.colorMatching.description}
               </p>
             </div>
             
             <div className="glass p-4 sm:p-5 rounded-xl border border-border hover-card">
-              <div className="text-primary text-xl mb-2 text-center">Advanced Algorithms</div>
+              <div className="text-primary text-xl mb-2 text-center">{t.features.algorithms.title}</div>
               <p className="text-foreground/80">
-                Choose between Nearest Neighbor, Bilinear, or Lanczos scaling for different pixel art styles.
+                {t.features.algorithms.description}
               </p>
             </div>
             
             <div className="glass p-4 sm:p-5 rounded-xl border border-border hover-card">
-              <div className="text-primary text-xl mb-2 text-center">Privacy First</div>
+              <div className="text-primary text-xl mb-2 text-center">{t.features.privacy.title}</div>
               <p className="text-foreground/80">
-                All processing happens in your browser. No uploads, no data collection, 100% private.
+                {t.features.privacy.description}
               </p>
             </div>
           </div>
@@ -569,43 +576,36 @@ export default function Home() {
         {/* Enhanced SEO Content */}
         <section className="prose prose-sm max-w-3xl mx-auto py-6 sm:py-8 glass rounded-xl border border-border p-4 sm:p-6">
           <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 flex justify-center">
-            <span className="text-gradient">Why Choose Wplace Pixel Tool?</span>
+            <span className="text-gradient">{t.seo.whyChoose}</span>
           </h2>
           
           <p>
-            <strong>Wplace Pixel Tool</strong> is the premier solution for creating pixel art specifically optimized for Wplace. 
-            Whether you&apos;re a seasoned artist or a beginner, our tool makes it easy to convert any image into 
-            Wplace-compatible pixel art with just a few clicks.
+            {t.seo.intro}
           </p>
           
-          <h3 className="text-lg sm:text-xl font-semibold mt-5 sm:mt-6 mb-2 sm:mb-3">Perfect for Wplace Artists</h3>
+          <h3 className="text-lg sm:text-xl font-semibold mt-5 sm:mt-6 mb-2 sm:mb-3">{t.seo.forArtists.title}</h3>
           <p>
-            Our specialized converter ensures your creations match the exact color palette used in Wplace, 
-            eliminating the frustration of color mismatches when transferring your designs. The customizable 
-            pixel block size lets you create anything from detailed miniatures to large-scale pixel art masterpieces.
+            {t.seo.forArtists.description}
           </p>
           
-          <h3 className="text-lg sm:text-xl font-semibold mt-5 sm:mt-6 mb-2 sm:mb-3">Professional-Grade Features</h3>
+          <h3 className="text-lg sm:text-xl font-semibold mt-5 sm:mt-6 mb-2 sm:mb-3">{t.seo.features.title}</h3>
           <p>
-            Wplace Pixel Tool offers advanced features typically found only in premium software:
+            {t.seo.features.description}
           </p>
           <ul>
-            <li>Multiple scaling algorithms (Nearest Neighbor, Bilinear, Lanczos)</li>
-            <li>Floyd-Steinberg dithering for smoother color transitions</li>
-            <li>Custom palette support for creative experimentation</li>
-            <li>One-click sharing and downloading</li>
+            {t.seo.features.list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
           
-          <h3 className="text-lg sm:text-xl font-semibold mt-5 sm:mt-6 mb-2 sm:mb-3">Free and Browser-Based</h3>
+          <h3 className="text-lg sm:text-xl font-semibold mt-5 sm:mt-6 mb-2 sm:mb-3">{t.seo.free.title}</h3>
           <p>
-            Unlike other pixel art tools, Wplace Pixel Tool is completely free to use and runs entirely in your browser. 
-            No downloads, no installations, and no sign-ups required. Start creating beautiful Wplace pixel art instantly 
-            on any device.
+            {t.seo.free.description}
           </p>
           
           <div className="text-center mt-6 sm:mt-8">
             <p className="text-base sm:text-lg font-medium">
-              Ready to create amazing pixel art for Wplace? Upload your image and start pixelizing now!
+              {t.seo.cta}
             </p>
           </div>
         </section>
