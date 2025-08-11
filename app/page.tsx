@@ -16,6 +16,8 @@ export default function Home() {
   const [paletteName, setPaletteName] = useState<string>('Wplace 64');
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const [showScrollTop, setShowScrollTop] = useState<boolean>(false);
+  const [sliderPosition, setSliderPosition] = useState<number>(50);
+  const [isSliderDragging, setIsSliderDragging] = useState<boolean>(false);
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const imageRef = useRef<HTMLImageElement | null>(null);
@@ -33,6 +35,65 @@ export default function Home() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  // Slider handlers
+  const handleSliderMouseDown = (e: React.MouseEvent) => {
+    setIsSliderDragging(true);
+    e.preventDefault();
+  };
+
+  const handleSliderTouchStart = (e: React.TouchEvent) => {
+    setIsSliderDragging(true);
+    e.preventDefault();
+  };
+
+  const handleSliderMouseMove = useCallback((e: MouseEvent) => {
+    if (!isSliderDragging) return;
+    
+    const container = document.getElementById('slider-container');
+    if (!container) return;
+    
+    const rect = container.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+    setSliderPosition(percentage);
+  }, [isSliderDragging]);
+
+  const handleSliderTouchMove = useCallback((e: TouchEvent) => {
+    if (!isSliderDragging) return;
+    
+    const container = document.getElementById('slider-container');
+    if (!container) return;
+    
+    const rect = container.getBoundingClientRect();
+    const touch = e.touches[0];
+    const x = touch.clientX - rect.left;
+    const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+    setSliderPosition(percentage);
+  }, [isSliderDragging]);
+
+  const handleSliderMouseUp = useCallback(() => {
+    setIsSliderDragging(false);
+  }, []);
+
+  const handleSliderTouchEnd = useCallback(() => {
+    setIsSliderDragging(false);
+  }, []);
+
+  useEffect(() => {
+    if (isSliderDragging) {
+      document.addEventListener('mousemove', handleSliderMouseMove);
+      document.addEventListener('mouseup', handleSliderMouseUp);
+      document.addEventListener('touchmove', handleSliderTouchMove, { passive: false });
+      document.addEventListener('touchend', handleSliderTouchEnd);
+      return () => {
+        document.removeEventListener('mousemove', handleSliderMouseMove);
+        document.removeEventListener('mouseup', handleSliderMouseUp);
+        document.removeEventListener('touchmove', handleSliderTouchMove);
+        document.removeEventListener('touchend', handleSliderTouchEnd);
+      };
+    }
+  }, [isSliderDragging, handleSliderMouseMove, handleSliderMouseUp, handleSliderTouchMove, handleSliderTouchEnd]);
 
   // Load default palette
   useEffect(() => {
@@ -190,28 +251,87 @@ export default function Home() {
 
       <div className="mx-auto max-w-6xl p-4 sm:p-6 space-y-8 sm:space-y-10">
         {/* Hero Section with enhanced visual elements */}
-        <section className="relative py-8 sm:py-12 text-center space-y-4 sm:space-y-6 animate-fade-in">
+        <section className="relative py-8 sm:py-12 animate-fade-in">
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full blur-3xl opacity-30 animate-rotate"></div>
             <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-accent/20 rounded-full blur-3xl opacity-20 animate-float"></div>
             <div className="pixel-grid absolute inset-0 opacity-10"></div>
           </div>
           
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            <span className="text-gradient">Wplace Pixel Tool</span>
-            <span className="block mt-2 text-2xl sm:text-3xl">Ultimate Pixel Art Creator for Wplace</span>
-          </h1>
-          
-          <p className="text-base sm:text-lg text-foreground/80 max-w-2xl mx-auto leading-relaxed">
-            Transform any image into perfect Wplace-ready pixel art with our advanced converter. 
-            Featuring official color palette matching, multiple scaling algorithms, and dithering options.
-          </p>
-          
-          <div className="flex flex-wrap gap-4 justify-center pt-4">
-            <button onClick={() => document.getElementById('file-input')?.click()} className="btn btn-primary animated-border">
-              <span className="z-10 relative px-2">Start Creating Now</span>
-            </button>
-            <a href="#features" className="btn btn-outline glow">Learn More</a>
+          {/* Hero Content - Two column layout on desktop, single column on mobile */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[500px]">
+            {/* Left side - Text content */}
+            <div className="text-center lg:text-left space-y-4 sm:space-y-6">
+              <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+                <span className="text-gradient">Wplace Pixel Tool</span>
+                <span className="block mt-2 text-2xl sm:text-3xl">Ultimate Pixel Art Creator for Wplace</span>
+              </h1>
+              
+              <p className="text-base sm:text-lg text-foreground/80 leading-relaxed">
+                Transform any image into perfect Wplace-ready pixel art with our advanced converter. 
+                Featuring official color palette matching, multiple scaling algorithms, and dithering options.
+              </p>
+              
+              <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
+                <button onClick={() => document.getElementById('file-input')?.click()} className="btn btn-primary animated-border">
+                  <span className="z-10 relative px-2">Start Creating Now</span>
+                </button>
+                <a href="#features" className="btn btn-outline glow">Learn More</a>
+              </div>
+            </div>
+
+            {/* Right side - Demo slider */}
+            <div className="relative">
+              <div className="glass rounded-xl border border-border p-4 sm:p-6 overflow-hidden">
+
+                
+                {/* Image comparison slider */}
+                <div 
+                  id="slider-container"
+                  className="slider-container relative aspect-square max-w-sm sm:max-w-md mx-auto cursor-ew-resize"
+                  onMouseDown={handleSliderMouseDown}
+                  onTouchStart={handleSliderTouchStart}
+                >
+                  <img 
+                    src="/Laugh.jpg" 
+                    alt="Original image" 
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                  <div className="absolute inset-0 overflow-hidden rounded-lg">
+                    <img 
+                      src="/wplace-pixel-Laugh.png" 
+                      alt="Pixelated result" 
+                      className="w-full h-full object-cover"
+                      style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
+                    />
+                  </div>
+                  
+                  {/* Slider handle */}
+                  <div 
+                    className="absolute top-0 bottom-0 w-1 bg-white shadow-lg cursor-ew-resize"
+                    style={{ left: `${sliderPosition}%` }}
+                  >
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full shadow-lg border-2 border-primary flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                  
+                  {/* Labels */}
+                  <div className="absolute top-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs font-medium">
+                    Original
+                  </div>
+                  <div className="absolute top-2 right-2 bg-black/50 text-white px-2 py-1 rounded text-xs font-medium">
+                    Pixel Art
+                  </div>
+                  
+
+                </div>
+                
+
+              </div>
+            </div>
           </div>
         </section>
 

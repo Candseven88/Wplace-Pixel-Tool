@@ -397,3 +397,15 @@ body {
   color: white;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
+/* Slider comparison styles */
+.slider-container {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.slider-container img {
+  pointer-events: none;
+}
