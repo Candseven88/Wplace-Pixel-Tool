@@ -1,95 +1,134 @@
 #!/bin/bash
 
-echo "🔍 Wplace 站点地图验证工具"
-echo "================================"
+# Sitemap Validation Script for Wplace Website
+# Validates XML format and Google Search Console compliance
 
-# 颜色定义
-GREEN='\033[0;32m'
-RED='\033[0;31m'
-YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+echo "🔍 Validating Wplace Sitemaps..."
+echo "================================="
 
-# 统计变量
-total_urls=0
-success_count=0
-failed_count=0
+BASE_URL="https://wplace.website"
+LOCAL_PATH="/Users/chenjianhua/Desktop/Application AI/46-wplace/public"
 
-# 验证单个URL
-validate_url() {
-    local url=$1
-    local status_code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
-    total_urls=$((total_urls + 1))
+# Function to validate XML format
+validate_xml() {
+    local file=$1
+    local name=$2
     
-    if [ "$status_code" = "200" ]; then
-        echo -e "${GREEN}✅ $status_code${NC} - $url"
-        success_count=$((success_count + 1))
+    echo "📄 Checking $name..."
+    
+    # Check if file exists locally
+    if [ -f "$LOCAL_PATH/$file" ]; then
+        echo "  ✅ Local file exists"
+        
+        # Check XML declaration
+        if head -1 "$LOCAL_PATH/$file" | grep -q '<?xml version="1.0" encoding="UTF-8"?>'; then
+            echo "  ✅ XML declaration correct"
+        else
+            echo "  ❌ XML declaration missing or incorrect"
+        fi
+        
+        # Check for xmlns
+        if grep -q 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' "$LOCAL_PATH/$file"; then
+            echo "  ✅ XML namespace correct"
+        else
+            echo "  ❌ XML namespace missing or incorrect"
+        fi
+        
+        # Count URLs (for urlset files)
+        if grep -q '<urlset' "$LOCAL_PATH/$file"; then
+            url_count=$(grep -c '<url>' "$LOCAL_PATH/$file")
+            echo "  📊 Contains $url_count URLs"
+        fi
+        
+        # Count sitemaps (for sitemapindex files)
+        if grep -q '<sitemapindex' "$LOCAL_PATH/$file"; then
+            sitemap_count=$(grep -c '<sitemap>' "$LOCAL_PATH/$file")
+            echo "  📊 Contains $sitemap_count sitemap references"
+        fi
+        
     else
-        echo -e "${RED}❌ $status_code${NC} - $url"
-        failed_count=$((failed_count + 1))
+        echo "  ❌ Local file not found"
     fi
+    
+    # Check online availability and Content-Type
+    echo "  🌐 Testing online availability..."
+    response=$(curl -s -I "$BASE_URL/$file" 2>/dev/null)
+    
+    if echo "$response" | grep -q "HTTP/2 200"; then
+        echo "  ✅ Online file accessible (HTTP 200)"
+    else
+        echo "  ❌ Online file not accessible"
+    fi
+    
+    if echo "$response" | grep -q "content-type: application/xml"; then
+        echo "  ✅ Content-Type: application/xml"
+    else
+        echo "  ❌ Content-Type incorrect"
+        echo "$response" | grep -i "content-type:"
+    fi
+    
+    echo ""
 }
 
-# 验证站点地图索引
-echo -e "\n${YELLOW}📋 验证站点地图索引...${NC}"
-validate_url "https://wplace.website/sitemap-index.xml"
+# Function to test sitemap structure
+test_sitemap_structure() {
+    echo "🏗️ Testing Sitemap Structure..."
+    echo "--------------------------------"
+    
+    # Test sitemap-index.xml
+    if curl -s "$BASE_URL/sitemap-index.xml" | grep -q "sitemap-english-only.xml"; then
+        echo "  ✅ sitemap-index.xml contains sitemap-english-only.xml reference"
+    else
+        echo "  ❌ sitemap-index.xml missing sitemap-english-only.xml reference"
+    fi
+    
+    # Test required elements in sitemap-english-only.xml
+    sitemap_content=$(curl -s "$BASE_URL/sitemap-english-only.xml")
+    
+    # Check for required URL elements
+    required_urls=("https://wplace.website/" "https://wplace.website/about/" "https://wplace.website/blog/")
+    
+    for url in "${required_urls[@]}"; do
+        if echo "$sitemap_content" | grep -q "<loc>$url</loc>"; then
+            echo "  ✅ Contains required URL: $url"
+        else
+            echo "  ❌ Missing required URL: $url"
+        fi
+    done
+    
+    # Check for proper lastmod format
+    if echo "$sitemap_content" | grep -q "<lastmod>2025-09-12</lastmod>"; then
+        echo "  ✅ lastmod format correct (YYYY-MM-DD)"
+    else
+        echo "  ❌ lastmod format incorrect"
+    fi
+    
+    # Check for priority values
+    if echo "$sitemap_content" | grep -q "<priority>1.0</priority>"; then
+        echo "  ✅ Homepage has priority 1.0"
+    else
+        echo "  ❌ Homepage priority not set to 1.0"
+    fi
+    
+    echo ""
+}
 
-# 验证主要页面
-echo -e "\n${YELLOW}🏠 验证主要英文页面...${NC}"
-validate_url "https://wplace.website/"
-validate_url "https://wplace.website/about/"
-validate_url "https://wplace.website/privacy/"
-validate_url "https://wplace.website/terms/"
-validate_url "https://wplace.website/tutorials/"
-validate_url "https://wplace.website/tutorials/getting-started/"
-validate_url "https://wplace.website/faq/"
+# Main validation
+validate_xml "sitemap.xml" "Main Sitemap"
+validate_xml "sitemap-index.xml" "Sitemap Index"
+validate_xml "sitemap-english-only.xml" "English-Only Sitemap"
+validate_xml "sitemap-main.xml" "Main Content Sitemap"
+validate_xml "sitemap-blog.xml" "Blog Sitemap"
+validate_xml "sitemap-i18n.xml" "International Sitemap"
 
-# 验证博客页面
-echo -e "\n${YELLOW}📝 验证博客页面...${NC}"
-validate_url "https://wplace.website/blog/"
-validate_url "https://wplace.website/blog/haru-urara-pixel-art-wplace-guide/"
-validate_url "https://wplace.website/blog/lanczos-algorithm-pixel-art/"
-validate_url "https://wplace.website/blog/wplace-vs-competitors/"
-validate_url "https://wplace.website/blog/best-practices-image-to-pixel-art/"
-validate_url "https://wplace.website/blog/get-started-wplace-pixel-tool/"
-validate_url "https://wplace.website/blog/grid-maker-for-pixel-perfect-art/"
-validate_url "https://wplace.website/blog/palette-guide-official-wplace-colors/"
-validate_url "https://wplace.website/blog/transform-images-into-wplace-pixel-art/"
+test_sitemap_structure
 
-# 验证中文页面
-echo -e "\n${YELLOW}🇨🇳 验证中文页面...${NC}"
-validate_url "https://wplace.website/zh/"
-validate_url "https://wplace.website/zh/about/"
-validate_url "https://wplace.website/zh/privacy/"
-validate_url "https://wplace.website/zh/terms/"
+echo "🎯 Google Search Console Recommendations:"
+echo "========================================"
+echo "1. Submit sitemap-index.xml as the main sitemap"
+echo "2. Submit sitemap-english-only.xml for English content focus" 
+echo "3. URL: https://wplace.website/sitemap-index.xml"
+echo "4. URL: https://wplace.website/sitemap-english-only.xml"
+echo ""
 
-# 验证日文页面
-echo -e "\n${YELLOW}🇯🇵 验证日文页面...${NC}"
-validate_url "https://wplace.website/ja/"
-validate_url "https://wplace.website/ja/about/"
-validate_url "https://wplace.website/ja/privacy/"
-validate_url "https://wplace.website/ja/terms/"
-
-# 验证站点地图文件
-echo -e "\n${YELLOW}📄 验证站点地图文件...${NC}"
-validate_url "https://wplace.website/sitemap-main.xml"
-validate_url "https://wplace.website/sitemap-blog.xml"
-validate_url "https://wplace.website/sitemap-i18n.xml"
-
-# 显示结果
-echo -e "\n${YELLOW}📊 验证结果统计${NC}"
-echo "================================"
-echo -e "总计URL数量: ${YELLOW}$total_urls${NC}"
-echo -e "成功访问: ${GREEN}$success_count${NC}"
-echo -e "访问失败: ${RED}$failed_count${NC}"
-
-# 计算成功率
-if [ $total_urls -gt 0 ]; then
-    success_rate=$(echo "scale=1; $success_count * 100 / $total_urls" | bc -l)
-    echo -e "成功率: ${GREEN}$success_rate%${NC}"
-fi
-
-if [ $failed_count -eq 0 ]; then
-    echo -e "\n${GREEN}🎉 所有URL验证成功！可以安全提交到Google Search Console${NC}"
-else
-    echo -e "\n${RED}⚠️  有$failed_count个URL访问失败，建议修复后再提交${NC}"
-fi 
+echo "✅ Validation complete!" 

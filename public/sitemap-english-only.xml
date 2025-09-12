@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
+  <!-- Homepage - Highest Priority -->
   <url>
     <loc>https://wplace.website/</loc>
     <lastmod>2025-09-12</lastmod>
@@ -8,7 +8,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Core pages -->
+  <!-- Core Application Pages -->
   <url>
     <loc>https://wplace.website/about/</loc>
     <lastmod>2025-09-12</lastmod>
@@ -19,25 +19,25 @@
   <url>
     <loc>https://wplace.website/tutorials/</loc>
     <lastmod>2025-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://wplace.website/tutorials/getting-started/</loc>
     <lastmod>2025-09-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://wplace.website/faq/</loc>
     <lastmod>2025-09-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Blog pages -->
+  <!-- Blog Section - High Priority for SEO -->
   <url>
     <loc>https://wplace.website/blog/</loc>
     <lastmod>2025-09-12</lastmod>
@@ -49,18 +49,11 @@
     <loc>https://wplace.website/blog/haru-urara-pixel-art-wplace-guide/</loc>
     <lastmod>2025-09-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://wplace.website/blog/lanczos-algorithm-pixel-art/</loc>
-    <lastmod>2025-09-12</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://wplace.website/blog/wplace-vs-competitors/</loc>
+    <loc>https://wplace.website/blog/transform-images-into-wplace-pixel-art/</loc>
     <lastmod>2025-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -80,28 +73,7 @@
     <priority>0.8</priority>
   </url>
 
-  <url>
-    <loc>https://wplace.website/blog/grid-maker-for-pixel-perfect-art/</loc>
-    <lastmod>2025-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wplace.website/blog/palette-guide-official-wplace-colors/</loc>
-    <lastmod>2025-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wplace.website/blog/transform-images-into-wplace-pixel-art/</loc>
-    <lastmod>2025-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Legal pages -->
+  <!-- Legal Pages - Lower Priority -->
   <url>
     <loc>https://wplace.website/privacy/</loc>
     <lastmod>2025-09-12</lastmod>
