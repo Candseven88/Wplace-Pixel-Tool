@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Outil Pixel Wplace",
+    "subtitle": "Créateur d'art pixel ultime pour Wplace",
+    "description": "Transformez n'importe quelle image en art pixel prêt pour Wplace grâce à notre convertisseur avancé. Palette officielle, plusieurs algorithmes de mise à l'échelle et options de tramage.",
+    "startButton": "Commencer",
+    "learnMore": "En savoir plus"
+  },
+  "settings": {
+    "pixelSettings": "Paramètres des pixels",
+    "blockSize": "Taille du bloc de pixel",
+    "scalingMethod": "Méthode d'échelle",
+    "nearest": "Voisin le plus proche",
+    "bilinear": "Bilinéraire",
+    "lanczos": "Lanczos",
+    "dithering": "Tramage Floyd–Steinberg",
+    "small": "Petit (2px)",
+    "large": "Grand (32px)"
+  },
+  "palette": { "title": "Palette", "upload": "Téléverser" },
+  "actions": { "title": "Actions", "download": "Télécharger", "share": "Partager" },
+  "upload": { "title": "Importez une image pour commencer", "selectImage": "Choisir une image", "dragDrop": "ou glissez-déposez ici" },
+  "tips": {
+    "title": "Astuces rapides",
+    "tip1": "Essayez différentes tailles de bloc pour plus de détails",
+    "tip2": "Activez le tramage pour des transitions plus douces",
+    "tip3": "La mise à l'échelle Voisin le plus proche garde un rendu net",
+    "tip4": "Astuce : combinez taille de bloc et tramage pour divers effets"
+  },
+  "features": {
+    "title": "Fonctionnalités Wplace Pixel",
+    "colorMatching": { "title": "Correspondance parfaite des couleurs", "description": "L'algorithme mappe vos images sur la palette officielle de Wplace pour une compatibilité parfaite." },
+    "algorithms": { "title": "Algorithmes avancés", "description": "Choisissez Voisin le plus proche, Bilinéraire ou Lanczos selon le style recherché." },
+    "privacy": { "title": "Confidentialité avant tout", "description": "Tout se fait dans votre navigateur. Aucune importation ni collecte de données." }
+  },
+  "seo": {
+    "whyChoose": "Pourquoi choisir Wplace Pixel Tool ?",
+    "intro": "Wplace Pixel Tool est la solution idéale pour créer de l'art pixel optimisé pour Wplace. Débutant ou expert, convertissez des images en quelques clics.",
+    "forArtists": { "title": "Parfait pour les artistes Wplace", "description": "Conversion fidèle à la palette officielle pour éviter les écarts de couleur. Taille de bloc ajustable pour maîtriser le détail." },
+    "features": {
+      "title": "Fonctionnalités professionnelles",
+      "description": "Des options dignes des logiciels premium :",
+      "list": [
+        "Plusieurs algorithmes (Voisin le plus proche, Bilinéraire, Lanczos)",
+        "Tramage Floyd–Steinberg pour des dégradés plus doux",
+        "Prise en charge de palettes personnalisées",
+        "Partage et téléchargement en un clic"
+      ]
+    },
+    "free": { "title": "Gratuit et dans le navigateur", "description": "Entièrement gratuit et 100% dans le navigateur. Aucune installation ni création de compte." },
+    "cta": "Prêt à créer un superbe art pixel pour Wplace ? Importez votre image maintenant !"
+  },
+  "demo": { "original": "Original", "pixelArt": "Art pixel" },
+  "navigation": { "language": "Langue", "english": "English", "chinese": "中文", "japanese": "日本語" },
+  "nav": {"blog": "Blog","about": "À propos","privacy": "Confidentialité","terms": "Conditions"},
+  "about": {
+    "title": "À propos",
+    "description": "À propos de l'Outil Pixel Wplace : convertisseur d'art pixel gratuit et respectueux de la vie privée pour Wplace.",
+    "content1": "L'Outil Pixel Wplace aide les joueurs à convertir des images en grilles de pixels compatibles avec Wplace en utilisant la palette officielle. Tout fonctionne dans votre navigateur : pas de téléchargement, pas de compte, aucun coût.",
+    "content2": "Le projet se concentre sur la facilité d'utilisation, la performance et le mappage fidèle des couleurs pour des résultats cohérents sur Wplace.",
+    "mission": "Notre Mission",
+    "missionContent": "Nous croyons que la création d'art pixel devrait être accessible à tous, indépendamment de l'expertise technique ou de la langue. C'est pourquoi nous avons créé le premier véritable outil d'art pixel global avec un support multilingue complet et une conception axée sur la confidentialité.",
+    "features": "Fonctionnalités Clés",
+    "feature1": "Algorithmes Lanczos et Floyd-Steinberg de qualité professionnelle",
+    "feature2": "Aperçu en temps réel avec curseur de comparaison interactif",
+    "feature3": "Support pour 9 langues dans le monde",
+    "feature4": "Traitement 100% basé sur le navigateur pour une confidentialité complète"
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "description": "Conditions d'utilisation pour l'Outil Pixel Wplace.",
+    "lastUpdated": "Dernière mise à jour : Janvier 2025",
+    "acceptance": "Acceptation des Conditions",
+    "acceptanceContent": "En utilisant l'Outil Pixel Wplace, vous acceptez d'utiliser le service à vos propres risques. L'outil est fourni \"tel quel\" sans garanties.",
+    "usage": "Utilisation Autorisée",
+    "usageContent": "Vous êtes responsable de vous assurer que tout contenu généré respecte les directives de Wplace et les lois applicables.",
+    "modifications": "Modifications des Conditions",
+    "modificationsContent": "Nous pouvons mettre à jour ces conditions de temps en temps. L'utilisation continue constitue une acceptation des conditions mises à jour.",
+    "limitation": "Limitation de Responsabilité",
+    "limitationContent": "L'Outil Pixel Wplace et ses développeurs ne seront pas responsables des dommages résultant de l'utilisation de ce service.",
+    "privacy": "Confidentialité",
+    "privacyContent": "Tout le traitement d'image se fait localement dans votre navigateur. Nous ne collectons, stockons ou transmettons pas vos images ou données personnelles."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "description": "Politique de confidentialité pour l'Outil Pixel Wplace.",
+    "lastUpdated": "Dernière mise à jour : Janvier 2025",
+    "commitment": "Notre Engagement",
+    "commitmentContent": "Nous nous engageons à protéger votre vie privée. L'Outil Pixel Wplace traite toutes les images localement dans votre navigateur.",
+    "dataCollection": "Collecte de Données",
+    "dataCollectionContent": "Nous ne collectons, stockons ou transmettons aucune de vos données personnelles ou images vers nos serveurs. Tout le traitement se fait entièrement dans votre navigateur.",
+    "analytics": "Analyses",
+    "analyticsContent": "Ce site web peut utiliser des analyses de base pour comprendre les modèles d'utilisation, mais aucune information personnelle n'est collectée.",
+    "cookies": "Cookies",
+    "cookiesContent": "Nous pouvons utiliser des cookies essentiels pour les fonctionnalités de base du site. Aucun cookie de suivi n'est utilisé.",
+    "contact": "Contact",
+    "contactContent": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter par nos canaux officiels."
+  }
+} 

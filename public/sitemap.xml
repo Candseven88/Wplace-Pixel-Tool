@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  WPLACE SITEMAP NOTICE:
+  This site now uses a sitemap index structure for better performance.
+  Please use sitemap-index.xml for the main sitemap.
+  
+  Original complex sitemap backed up as sitemap-backup-20250912.xml
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core pages only - Full structure available in sitemap-index.xml -->
+  <url>
+    <loc>https://wplace.website/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/haru-urara-pixel-art-wplace-guide/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/tutorials/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/zh/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ja/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset> 

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English (default) pages -->
+  <url>
+    <loc>https://wplace.website/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <!-- About pages in all languages -->
+  <url>
+    <loc>https://wplace.website/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <!-- Privacy pages in all languages -->
+  <url>
+    <loc>https://wplace.website/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <!-- Terms pages in all languages -->
+  <url>
+    <loc>https://wplace.website/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- Non-localized pages (English only) -->
+  <url>
+    <loc>https://wplace.website/blog/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/haru-urara-pixel-art-wplace-guide/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/lanczos-algorithm-pixel-art/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/wplace-vs-competitors/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/best-practices-image-to-pixel-art/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/get-started-wplace-pixel-tool/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/grid-maker-for-pixel-perfect-art/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/palette-guide-official-wplace-colors/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/blog/transform-images-into-wplace-pixel-art/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/tutorials/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/tutorials/getting-started/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://wplace.website/faq/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Individual language versions -->
+  <url>
+    <loc>https://wplace.website/zh/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/zh/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/zh/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/zh/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- Japanese pages -->
+  <url>
+    <loc>https://wplace.website/ja/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ja/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ja/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ja/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- Spanish pages -->
+  <url>
+    <loc>https://wplace.website/es/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/es/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/es/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/es/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- French pages -->
+  <url>
+    <loc>https://wplace.website/fr/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/fr/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/fr/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/fr/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- German pages -->
+  <url>
+    <loc>https://wplace.website/de/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/de/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/de/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/de/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- Portuguese pages -->
+  <url>
+    <loc>https://wplace.website/pt/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/pt/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/pt/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/pt/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- Russian pages -->
+  <url>
+    <loc>https://wplace.website/ru/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ru/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ru/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ru/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+
+  <!-- Korean pages -->
+  <url>
+    <loc>https://wplace.website/ko/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ko/about/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/about/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/about/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ko/privacy/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/privacy/" />
+  </url>
+
+  <url>
+    <loc>https://wplace.website/ko/terms/</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wplace.website/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wplace.website/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://wplace.website/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wplace.website/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wplace.website/fr/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://wplace.website/de/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://wplace.website/pt/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://wplace.website/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://wplace.website/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wplace.website/terms/" />
+  </url>
+</urlset> 

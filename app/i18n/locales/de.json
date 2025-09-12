@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Wplace Pixel-Werkzeug",
+    "subtitle": "Ultimativer Pixel-Art-Creator für Wplace",
+    "description": "Wandle beliebige Bilder mit unserem fortschrittlichen Konverter in Wplace-taugliche Pixelkunst um. Offizielle Farbpalette, mehrere Skalierungsalgorithmen und Dithering-Optionen.",
+    "startButton": "Jetzt starten",
+    "learnMore": "Mehr erfahren"
+  },
+  "settings": {
+    "pixelSettings": "Pixel-Einstellungen",
+    "blockSize": "Pixelblock-Größe",
+    "scalingMethod": "Skalierungsmethode",
+    "nearest": "Nächster Nachbar",
+    "bilinear": "Bilinear",
+    "lanczos": "Lanczos",
+    "dithering": "Floyd–Steinberg Dithering",
+    "small": "Klein (2px)",
+    "large": "Groß (32px)"
+  },
+  "palette": { "title": "Palette", "upload": "Hochladen" },
+  "actions": { "title": "Aktionen", "download": "Download", "share": "Teilen" },
+  "upload": { "title": "Bild hochladen, um zu beginnen", "selectImage": "Bild auswählen", "dragDrop": "oder hierher ziehen" },
+  "tips": {
+    "title": "Schnelle Tipps",
+    "tip1": "Verschiedene Blockgrößen für mehr Detail testen",
+    "tip2": "Dithering für weichere Übergänge aktivieren",
+    "tip3": "Nächster Nachbar liefert scharfe Pixelkunst",
+    "tip4": "Tipp: Blockgröße und Dithering kombinieren für Effekte"
+  },
+  "features": {
+    "title": "Wplace Pixel-Funktionen",
+    "colorMatching": { "title": "Perfekte Farbabstimmung", "description": "Der Algorithmus ordnet Farben der offiziellen Wplace-Palette zu – maximale Kompatibilität." },
+    "algorithms": { "title": "Fortschrittliche Algorithmen", "description": "Wähle Nächster Nachbar, Bilinear oder Lanczos für verschiedene Stile." },
+    "privacy": { "title": "Datenschutz zuerst", "description": "Alles läuft im Browser. Keine Uploads, keine Datenerfassung." }
+  },
+  "seo": {
+    "whyChoose": "Warum Wplace Pixel Tool?",
+    "intro": "Die führende Lösung für optimierte Pixelkunst für Wplace. Bilder mit wenigen Klicks konvertieren – für Einsteiger und Profis.",
+    "forArtists": { "title": "Ideal für Wplace-Künstler", "description": "Exakte Wplace-Palette, keine Farbabweichungen. Detailgrad per Blockgröße steuern." },
+    "features": {
+      "title": "Profi-Funktionen",
+      "description": "Features wie in Premium-Software:",
+      "list": [
+        "Mehrere Skalierungen (Nächster Nachbar, Bilinear, Lanczos)",
+        "Floyd–Steinberg-Dithering für weiche Übergänge",
+        "Eigene Paletten unterstützen",
+        "Teilen und Download mit einem Klick"
+      ]
+    },
+    "free": { "title": "Kostenlos im Browser", "description": "Komplett kostenlos, 100% im Browser. Keine Installation, kein Account nötig." },
+    "cta": "Bereit für großartige Pixelkunst? Bild hochladen und loslegen!"
+  },
+  "demo": { "original": "Original", "pixelArt": "Pixelkunst" },
+  "navigation": { "language": "Sprache", "english": "English", "chinese": "中文", "japanese": "日本語" },
+  "nav": {"blog": "Blog","about": "Über uns","privacy": "Datenschutz","terms": "Nutzungsbedingungen"},
+  "about": {
+    "title": "Über uns",
+    "description": "Über das Wplace Pixel Tool: kostenloser, datenschutzfreundlicher Pixel-Art-Konverter für Wplace.",
+    "content1": "Das Wplace Pixel Tool hilft Spielern dabei, Bilder mithilfe der offiziellen Palette in Wplace-kompatible Pixelraster zu konvertieren. Alles läuft in Ihrem Browser: keine Uploads, keine Konten, keine Kosten.",
+    "content2": "Das Projekt konzentriert sich auf Benutzerfreundlichkeit, Leistung und originalgetreue Farbzuordnung für konsistente Ergebnisse auf Wplace.",
+    "mission": "Unsere Mission",
+    "missionContent": "Wir glauben, dass Pixel-Art-Erstellung für jeden zugänglich sein sollte, unabhängig von technischem Fachwissen oder Sprache. Deshalb haben wir das erste wirklich globale Pixel-Art-Tool mit umfassender mehrsprachiger Unterstützung und datenschutzorientiertem Design entwickelt.",
+    "features": "Hauptfunktionen",
+    "feature1": "Professionelle Lanczos- und Floyd-Steinberg-Algorithmen",
+    "feature2": "Echtzeit-Vorschau mit interaktivem Vergleichsschieberegler",
+    "feature3": "Unterstützung für 9 Sprachen weltweit",
+    "feature4": "100% browserbasierte Verarbeitung für vollständige Privatsphäre"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "description": "Nutzungsbedingungen für das Wplace Pixel Tool.",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+    "acceptance": "Annahme der Bedingungen",
+    "acceptanceContent": "Durch die Nutzung des Wplace Pixel Tools stimmen Sie zu, den Service auf eigenes Risiko zu nutzen. Das Tool wird \"wie es ist\" ohne Gewährleistungen bereitgestellt.",
+    "usage": "Erlaubte Nutzung",
+    "usageContent": "Sie sind dafür verantwortlich sicherzustellen, dass alle generierten Inhalte den Wplace-Richtlinien und geltenden Gesetzen entsprechen.",
+    "modifications": "Änderungen der Bedingungen",
+    "modificationsContent": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung stellt eine Annahme der aktualisierten Bedingungen dar.",
+    "limitation": "Haftungsbeschränkung",
+    "limitationContent": "Das Wplace Pixel Tool und seine Entwickler haften nicht für Schäden, die durch die Nutzung dieses Services entstehen.",
+    "privacy": "Datenschutz",
+    "privacyContent": "Alle Bildverarbeitung erfolgt lokal in Ihrem Browser. Wir sammeln, speichern oder übertragen Ihre Bilder oder persönlichen Daten nicht."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "description": "Datenschutzerklärung für das Wplace Pixel Tool.",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+    "commitment": "Unsere Verpflichtung",
+    "commitmentContent": "Wir verpflichten uns zum Schutz Ihrer Privatsphäre. Das Wplace Pixel Tool verarbeitet alle Bilder lokal in Ihrem Browser.",
+    "dataCollection": "Datenerfassung",
+    "dataCollectionContent": "Wir sammeln, speichern oder übertragen keine Ihrer persönlichen Daten oder Bilder an unsere Server. Alle Verarbeitung erfolgt vollständig in Ihrem Browser.",
+    "analytics": "Analytics",
+    "analyticsContent": "Diese Website kann grundlegende Analysen verwenden, um Nutzungsmuster zu verstehen, aber es werden keine persönlichen Informationen gesammelt.",
+    "cookies": "Cookies",
+    "cookiesContent": "Wir können wesentliche Cookies für grundlegende Website-Funktionalität verwenden. Es werden keine Tracking-Cookies verwendet.",
+    "contact": "Kontakt",
+    "contactContent": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte über unsere offiziellen Kanäle."
+  }
+} 

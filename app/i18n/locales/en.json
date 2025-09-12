@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "title": "Wplace Pixel Tool",
+    "subtitle": "Ultimate Pixel Art Creator for Wplace",
+    "description": "Transform any image into perfect Wplace-ready pixel art with our advanced converter. Featuring official color palette matching, multiple scaling algorithms, and dithering options.",
+    "startButton": "Start Creating Now",
+    "learnMore": "Learn More"
+  },
+  "settings": {
+    "pixelSettings": "Pixel Settings",
+    "blockSize": "Pixel block size",
+    "scalingMethod": "Scaling method",
+    "nearest": "Nearest Neighbor",
+    "bilinear": "Bilinear",
+    "lanczos": "Lanczos",
+    "dithering": "Floyd–Steinberg dithering",
+    "small": "Small (2px)",
+    "large": "Large (32px)"
+  },
+  "palette": {
+    "title": "Palette",
+    "upload": "Upload"
+  },
+  "actions": {
+    "title": "Actions",
+    "download": "Download",
+    "share": "Share"
+  },
+  "upload": {
+    "title": "Upload an image to start creating",
+    "selectImage": "Select Image",
+    "dragDrop": "or drag & drop image here",
+    "uploadNew": "Upload New Image"
+  },
+  "tips": {
+    "title": "Quick Tips",
+    "tip1": "Try different block sizes for detail",
+    "tip2": "Enable dithering for smoother transitions",
+    "tip3": "Nearest Neighbor scaling works best for crisp pixel art",
+    "tip4": "Tip: Try different block sizes and dithering for various effects"
+  },
+  "features": {
+    "title": "Wplace Pixel Features",
+    "colorMatching": {
+      "title": "Perfect Color Matching",
+      "description": "Our algorithm automatically maps your images to the official Wplace color palette for perfect compatibility."
+    },
+    "algorithms": {
+      "title": "Advanced Algorithms",
+      "description": "Choose between Nearest Neighbor, Bilinear, or Lanczos scaling for different pixel art styles."
+    },
+    "privacy": {
+      "title": "Privacy First",
+      "description": "All processing happens in your browser. No uploads, no data collection, 100% private."
+    }
+  },
+  "seo": {
+    "whyChoose": "Why Choose Wplace Pixel Tool?",
+    "intro": "Wplace Pixel Tool is the premier solution for creating pixel art specifically optimized for Wplace. Whether you're a seasoned artist or a beginner, our tool makes it easy to convert any image into Wplace-compatible pixel art with just a few clicks.",
+    "forArtists": {
+      "title": "Perfect for Wplace Artists",
+      "description": "Our specialized converter ensures your creations match the exact color palette used in Wplace, eliminating the frustration of color mismatches when transferring your designs. The customizable pixel block size lets you create anything from detailed miniatures to large-scale pixel art masterpieces."
+    },
+    "features": {
+      "title": "Professional-Grade Features",
+      "description": "Wplace Pixel Tool offers advanced features typically found only in premium software:",
+      "list": [
+        "Multiple scaling algorithms (Nearest Neighbor, Bilinear, Lanczos)",
+        "Floyd-Steinberg dithering for smoother color transitions",
+        "Custom palette support for creative experimentation",
+        "One-click sharing and downloading"
+      ]
+    },
+    "free": {
+      "title": "Free and Browser-Based",
+      "description": "Unlike other pixel art tools, Wplace Pixel Tool is completely free to use and runs entirely in your browser. No downloads, no installations, and no sign-ups required. Start creating beautiful Wplace pixel art instantly on any device."
+    },
+    "cta": "Ready to create amazing pixel art for Wplace? Upload your image and start pixelizing now!"
+  },
+  "demo": {
+    "original": "Original",
+    "pixelArt": "Pixel Art"
+  },
+  "navigation": {
+    "language": "Language",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語"
+  },
+  "nav": {
+    "blog": "Blog",
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "about": {
+    "title": "About",
+    "description": "About Wplace Pixel Tool: free, privacy-friendly pixel art converter for Wplace.",
+    "content1": "Wplace Pixel Tool helps players convert images into Wplace-compatible pixel grids using the official palette. Everything runs in your browser: no uploads, no accounts, no cost.",
+    "content2": "The project focuses on usability, performance, and faithful color mapping for consistent results on Wplace.",
+    "mission": "Our Mission",
+    "missionContent": "We believe pixel art creation should be accessible to everyone, regardless of technical expertise or language. That's why we've built the first truly global pixel art tool with comprehensive multi-language support and privacy-first design.",
+    "features": "Key Features",
+    "feature1": "Professional-grade Lanczos and Floyd-Steinberg algorithms",
+    "feature2": "Real-time preview with interactive comparison slider", 
+    "feature3": "Support for 9 languages worldwide",
+    "feature4": "100% browser-based processing for complete privacy"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms of Service for Wplace Pixel Tool.",
+    "lastUpdated": "Last updated: January 2025",
+    "acceptance": "Acceptance of Terms",
+    "acceptanceContent": "By using Wplace Pixel Tool, you agree to use the service at your own risk. The tool is provided \"as is\" without warranties.",
+    "usage": "Permitted Usage", 
+    "usageContent": "You are responsible for ensuring that any generated content complies with Wplace guidelines and applicable laws.",
+    "modifications": "Modifications to Terms",
+    "modificationsContent": "We may update these terms from time to time. Continued use constitutes acceptance of the updated terms.",
+    "limitation": "Limitation of Liability",
+    "limitationContent": "Wplace Pixel Tool and its developers shall not be liable for any damages arising from the use of this service.",
+    "privacy": "Privacy",
+    "privacyContent": "All image processing occurs locally in your browser. We do not collect, store, or transmit your images or personal data."
+  },
+  "privacy": {
+    "title": "Privacy Policy", 
+    "description": "Privacy Policy for Wplace Pixel Tool.",
+    "lastUpdated": "Last updated: January 2025",
+    "commitment": "Our Commitment",
+    "commitmentContent": "We are committed to protecting your privacy. Wplace Pixel Tool processes all images locally in your browser.",
+    "dataCollection": "Data Collection",
+    "dataCollectionContent": "We do not collect, store, or transmit any of your personal data or images to our servers. All processing happens entirely within your browser.",
+    "analytics": "Analytics",
+    "analyticsContent": "This website may use basic analytics to understand usage patterns, but no personal information is collected.",
+    "cookies": "Cookies",
+    "cookiesContent": "We may use essential cookies for basic site functionality. No tracking cookies are used.",
+    "contact": "Contact",
+    "contactContent": "If you have any questions about this privacy policy, please contact us through our official channels."
+  }
+} 

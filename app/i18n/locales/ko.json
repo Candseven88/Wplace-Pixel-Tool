@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Wplace 픽셀 도구",
+    "subtitle": "Wplace를 위한 최강의 픽셀 아트 제작기",
+    "description": "고급 변환기로 이미지를 Wplace용 픽셀 아트로 변환하세요. 공식 팔레트 매칭, 다양한 스케일링 알고리즘, 디더링 옵션 제공.",
+    "startButton": "지금 시작",
+    "learnMore": "자세히 보기"
+  },
+  "settings": {
+    "pixelSettings": "픽셀 설정",
+    "blockSize": "픽셀 블록 크기",
+    "scalingMethod": "스케일링 방법",
+    "nearest": "최근접 이웃",
+    "bilinear": "바이리니어",
+    "lanczos": "란초스",
+    "dithering": "플로이드–스타인버그 디더링",
+    "small": "작게 (2px)",
+    "large": "크게 (32px)"
+  },
+  "palette": { "title": "팔레트", "upload": "업로드" },
+  "actions": { "title": "작업", "download": "다운로드", "share": "공유" },
+  "upload": { "title": "시작하려면 이미지를 업로드하세요", "selectImage": "이미지 선택", "dragDrop": "또는 여기로 드래그 앤 드롭" },
+  "tips": {
+    "title": "빠른 팁",
+    "tip1": "자세한 표현을 위해 다양한 블록 크기를 시도하세요",
+    "tip2": "부드러운 전환을 위해 디더링을 켜세요",
+    "tip3": "최근접 이웃 스케일링이 선명한 픽셀 아트에 적합합니다",
+    "tip4": "팁: 블록 크기와 디더링을 조합해 다양한 효과를 얻으세요"
+  },
+  "features": {
+    "title": "Wplace 픽셀 기능",
+    "colorMatching": { "title": "완벽한 색상 매칭", "description": "이미지를 Wplace 공식 팔레트에 자동 매핑하여 완벽한 호환성을 보장합니다." },
+    "algorithms": { "title": "고급 알고리즘", "description": "최근접 이웃, 바이리니어, 란초스 중에서 선택하세요." },
+    "privacy": { "title": "개인정보 우선", "description": "모든 처리는 브라우저에서 이루어집니다. 업로드와 데이터 수집이 없습니다." }
+  },
+  "seo": {
+    "whyChoose": "왜 Wplace Pixel Tool 인가요?",
+    "intro": "Wplace에 최적화된 픽셀 아트를 만들기 위한 최고의 솔루션입니다. 몇 번의 클릭으로 이미지를 변환하세요.",
+    "forArtists": { "title": "Wplace 아티스트에게 최적", "description": "공식 팔레트와 정확히 일치하여 색상 불일치를 방지합니다. 블록 크기로 디테일을 조절하세요." },
+    "features": {
+      "title": "전문가급 기능",
+      "description": "프리미엄 소프트웨어 수준의 기능 제공:",
+      "list": [
+        "여러 스케일링 알고리즘(최근접, 바이리니어, 란초스)",
+        "부드러운 전환을 위한 플로이드–스타인버그 디더링",
+        "사용자 정의 팔레트 지원",
+        "원클릭 공유 및 다운로드"
+      ]
+    },
+    "free": { "title": "무료, 브라우저 기반", "description": "완전히 무료이며 100% 브라우저에서 실행됩니다. 설치와 회원가입이 필요 없습니다." },
+    "cta": "멋진 픽셀 아트를 만들 준비가 되셨나요? 이미지를 업로드하고 시작하세요!"
+  },
+  "demo": { "original": "원본", "pixelArt": "픽셀 아트" },
+  "navigation": { "language": "언어", "english": "English", "chinese": "中文", "japanese": "日本語" },
+  "nav": {"blog": "블로그","about": "소개","privacy": "개인정보","terms": "이용약관"},
+  "about": {
+    "title": "소개",
+    "description": "Wplace 픽셀 도구 소개: Wplace용 무료, 개인정보 보호 픽셀 아트 변환기.",
+    "content1": "Wplace 픽셀 도구는 공식 팔레트를 사용하여 이미지를 Wplace 호환 픽셀 그리드로 변환하는 데 도움을 줍니다. 모든 작업이 브라우저에서 이루어집니다: 업로드 없음, 계정 없음, 비용 없음.",
+    "content2": "이 프로젝트는 사용성, 성능, Wplace에서 일관된 결과를 위한 충실한 색상 매핑에 중점을 둡니다.",
+    "mission": "우리의 미션",
+    "missionContent": "우리는 기술적 전문성이나 언어에 관계없이 모든 사람이 픽셀 아트 제작에 접근할 수 있어야 한다고 믿습니다. 그래서 포괄적인 다국어 지원과 개인정보 보호 우선 설계를 갖춘 최초의 진정한 글로벌 픽셀 아트 도구를 구축했습니다.",
+    "features": "주요 기능",
+    "feature1": "전문가급 Lanczos 및 Floyd-Steinberg 알고리즘",
+    "feature2": "대화형 비교 슬라이더가 있는 실시간 미리보기",
+    "feature3": "전 세계 9개 언어 지원",
+    "feature4": "완전한 개인정보 보호를 위한 100% 브라우저 기반 처리"
+  },
+  "terms": {
+    "title": "이용약관",
+    "description": "Wplace 픽셀 도구 이용약관.",
+    "lastUpdated": "최종 업데이트: 2025년 1월",
+    "acceptance": "약관 동의",
+    "acceptanceContent": "Wplace 픽셀 도구를 사용함으로써 귀하는 자신의 책임 하에 서비스를 사용하는 데 동의합니다. 이 도구는 보증 없이 \"있는 그대로\" 제공됩니다.",
+    "usage": "허용된 사용",
+    "usageContent": "생성된 모든 콘텐츠가 Wplace 가이드라인과 해당 법률을 준수하는지 확인할 책임은 귀하에게 있습니다.",
+    "modifications": "약관 수정",
+    "modificationsContent": "우리는 때때로 이 약관을 업데이트할 수 있습니다. 지속적인 사용은 업데이트된 약관에 대한 동의를 의미합니다.",
+    "limitation": "책임 제한",
+    "limitationContent": "Wplace 픽셀 도구와 그 개발자는 이 서비스 사용으로 인해 발생하는 어떤 손해에 대해서도 책임지지 않습니다.",
+    "privacy": "개인정보",
+    "privacyContent": "모든 이미지 처리는 브라우저에서 로컬로 이루어집니다. 우리는 귀하의 이미지나 개인 데이터를 수집, 저장 또는 전송하지 않습니다."
+  },
+  "privacy": {
+    "title": "개인정보 보호정책",
+    "description": "Wplace 픽셀 도구 개인정보 보호정책.",
+    "lastUpdated": "최종 업데이트: 2025년 1월",
+    "commitment": "우리의 약속",
+    "commitmentContent": "우리는 귀하의 개인정보를 보호하는 데 전념하고 있습니다. Wplace 픽셀 도구는 브라우저에서 모든 이미지를 로컬로 처리합니다.",
+    "dataCollection": "데이터 수집",
+    "dataCollectionContent": "우리는 귀하의 개인 데이터나 이미지를 서버에 수집, 저장 또는 전송하지 않습니다. 모든 처리는 완전히 브라우저 내에서 이루어집니다.",
+    "analytics": "분석",
+    "analyticsContent": "이 웹사이트는 사용 패턴을 이해하기 위해 기본적인 분석을 사용할 수 있지만, 개인 정보는 수집되지 않습니다.",
+    "cookies": "쿠키",
+    "cookiesContent": "기본적인 사이트 기능을 위해 필수 쿠키를 사용할 수 있습니다. 추적 쿠키는 사용되지 않습니다.",
+    "contact": "연락처",
+    "contactContent": "이 개인정보 보호정책에 대한 질문이 있으시면 공식 채널을 통해 연락해 주세요."
+  }
+} 
