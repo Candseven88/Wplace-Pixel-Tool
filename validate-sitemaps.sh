@@ -23,7 +23,7 @@ validate_xml() {
         # Check XML declaration
         if head -1 "$LOCAL_PATH/$file" | grep -q '<?xml version="1.0" encoding="UTF-8"?>'; then
             echo "  ✅ XML declaration correct"
-        else
+    else
             echo "  ❌ XML declaration missing or incorrect"
         fi
         
