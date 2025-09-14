@@ -67,7 +67,7 @@ open http://localhost:3000
 - **Processing**: Canvas API with WebGL acceleration
 - **Deployment**: Cloudflare Pages + Functions
 - **Analytics**: Google Analytics, Microsoft Clarity, Cloudflare Analytics
-- **Monetization**: Google AdSense integration
+- **Monetization**: Google AdSense integration with ads.txt verification
 
 ### Algorithm Implementation
 
