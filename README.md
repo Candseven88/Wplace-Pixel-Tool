@@ -66,6 +66,8 @@ open http://localhost:3000
 - **Styling**: Tailwind CSS 4.0 for modern design
 - **Processing**: Canvas API with WebGL acceleration
 - **Deployment**: Cloudflare Pages + Functions
+- **Analytics**: Google Analytics, Microsoft Clarity, Cloudflare Analytics
+- **Monetization**: Google AdSense integration
 
 ### Algorithm Implementation
 
@@ -329,15 +331,5 @@ Special thanks to:
 - 📊 **[竞品分析报告与优化建议](../Wplace竞品分析报告与优化建议.md)** - Comprehensive competitive analysis and optimization strategy
 - 🎨 **[Design System](docs/design-system.md)** - UI/UX guidelines and components
 - 🌍 **[Internationalization Guide](docs/i18n.md)** - Multi-language implementation details
-
-### SEO & Search Console
-- 🔍 **[Sitemap Structure](public/)** - XML sitemaps optimized for Google Search Console
-  - `sitemap-index.xml` - Main sitemap index for all content sections
-  - `sitemap-english-only.xml` - Optimized English content sitemap (12 core URLs)
-  - `sitemap-main.xml` - Main application pages
-  - `sitemap-blog.xml` - Blog posts and articles
-  - `sitemap-i18n.xml` - Multi-language pages
-- ✅ **Sitemap Validation**: Run `./validate-sitemaps.sh` to verify XML format and structure
-- 📤 **Google Search Console**: Submit both `sitemap-index.xml` and `sitemap-english-only.xml`
 
 ---

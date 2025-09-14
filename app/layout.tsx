@@ -145,6 +145,13 @@ export default function RootLayout({
         
         {/* Cloudflare Web Analytics */}
         <Script id="cloudflare-analytics" defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bfa90afd3f144bf9bc1bc348f38d6efc"}' />
+        
+        {/* Google AdSense */}
+        <Script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9816094922761343"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* Structured Data for SEO */}
