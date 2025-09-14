@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'isumi-japan-pixel-art-travel-guide',
+    title: 'Isumi Japan: Pixel Art Your Perfect Countryside Journey',
+    excerpt:
+      'Discover Isumi\'s hidden coastal gems and create stunning pixel art travel memories. Complete guide to countryside railways, seasonal beauty, and digital art creation.',
+    date: 'September 14, 2025',
+    category: 'Travel & Pixel Art',
+  },
+  {
     slug: 'haru-urara-pixel-art-wplace-guide',
     title: 'Haru Urara Pixel Art Guide for Wplace',
     excerpt:
