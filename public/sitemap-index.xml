@@ -9,12 +9,12 @@
   <!-- Blog content -->
   <sitemap>
     <loc>https://wplace.website/sitemap-blog.xml</loc>
-    <lastmod>2025-09-14</lastmod>
+    <lastmod>2025-09-12</lastmod>
   </sitemap>
   
   <!-- Multi-language pages -->
   <sitemap>
     <loc>https://wplace.website/sitemap-i18n.xml</loc>
-    <lastmod>2025-09-14</lastmod>
+    <lastmod>2025-09-12</lastmod>
   </sitemap>
 </sitemapindex> 
