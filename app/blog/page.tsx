@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'game-character-pixel-art-guide',
+    title: 'Game Character Pixel Art Guide - From Concept to Canvas',
+    excerpt:
+      'Master the art of creating pixel art from popular game characters. Learn professional techniques, explore creative inspirations, and discover amazing game art communities.',
+    date: 'September 28, 2025',
+    category: 'Character Guides',
+  },
+  {
     slug: 'haru-urara-pixel-art-wplace-guide',
     title: 'Haru Urara Pixel Art Guide for Wplace',
     excerpt:
